@@ -3,10 +3,8 @@ import torch
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 
 # Load the CSV data
-data = pd.read_csv('./data/mental_health_dataset.csv')
-# data=data.sample(n=100)
-data = data.iloc[:100]
-#User Input,Polarity,Extracted Concern,Category,Intensity
+data = pd.read_csv('../data/even_new_mental.csv')
+data = data.iloc[:400]  # Using a sample of 400 for testing
 
 # Load pre-trained model and tokenizer for binary sentiment classification
 model_name = "distilbert-base-uncased-finetuned-sst-2-english"
@@ -36,9 +34,24 @@ def predict_polarity(text):
     else:
         return "Neutral"
 
-# Apply the function to your dataset
-data['Predicted Polarity'] = data['User Input'].apply(predict_polarity)
+# Initialize counters for accuracy calculation
+correct_predictions = 0
 
-# Save the results to a new CSV file
-data.to_csv('./predictions_with_polarity.csv', index=False)
-print("Predictions saved to './predictions_with_polarity.csv'")
+# Iterate over each row to predict and print the polarity
+for index, row in data.iterrows():
+    user_input = row['User Input']
+    actual_polarity = row['Polarity']
+    predicted_polarity = predict_polarity(user_input)
+    
+    # Print input and prediction
+    print(f"User Input: {user_input}")
+    print(f"Actual Polarity: {actual_polarity} | Predicted Polarity: {predicted_polarity}\n")
+
+    # Check if the prediction is correct
+    if predicted_polarity == actual_polarity:
+        correct_predictions += 1
+
+# Calculate accuracy
+accuracy = correct_predictions / len(data)
+print(f"\nAccuracy: {accuracy:.2%}")
+
