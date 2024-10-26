@@ -58,4 +58,41 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 });
 
+document.addEventListener('DOMContentLoaded', () => {
+    // Fetch chat history only if user is logged in
+    fetch('/history')
+        .then(response => response.json())
+        .then(data => {
+            if (data.history && data.history.length > 0) {
+                const historyList = document.getElementById('history-list');
+                historyList.innerHTML = '';
+                data.history.forEach(chat => {
+                    const listItem = document.createElement('li');
+                    listItem.textContent = chat.message;
+                    listItem.onclick = () => loadChat(chat.id);  // Load specific chat
+                    historyList.appendChild(listItem);
+                });
+            }
+        });
+});
+
+function startNewChat() {
+    // Clear chat box for new chat session
+    document.getElementById('chat-box').innerHTML = '';
+}
+
+function loadChat(chatId) {
+    // Fetch and display messages from a specific chat history
+    fetch(`/load_chat/${chatId}`)
+        .then(response => response.json())
+        .then(data => {
+            const chatBox = document.getElementById('chat-box');
+            chatBox.innerHTML = '';  // Clear previous messages
+            data.messages.forEach(message => {
+                appendMessage(message.text, message.sender === 'user' ? 'user-message' : 'bot-message');
+            });
+        });
+}
+
+
 

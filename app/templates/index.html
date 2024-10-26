@@ -28,6 +28,14 @@
 
     <!-- Chat Container -->
     <div class="main">
+        {% if session.get('user_id') %}
+      <!-- History Bar -->
+      <div class="chat-history">
+        <h2>Chat History</h2>
+        <button onclick="startNewChat()">New Chat</button>
+        <ul id="history-list"></ul>
+      </div>
+      {% endif %}
         <div class="chat-container">
             <div id="chat-box" class="chat-box"></div>
             <div class="input-container">
