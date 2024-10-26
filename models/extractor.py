@@ -9,13 +9,13 @@ from tqdm import tqdm  # Import tqdm for progress bars
 device = "mps" if torch.backends.mps.is_available() else "cpu"
 
 # Sample data in the specified CSV format
-data = pd.read_csv("../data/new_mental_health_dataset.csv")
+data = pd.read_csv("../data/even_new_mental.csv")
 # data = data.sample(n=50000)
 
 data = data.sample(frac=1)
 
-test_data = data[150:]
-data = data[:150]
+test_data = data[400:]
+data = data[:400]
 
 # # Convert to DataFrame
 # df = pd.DataFrame(data)
@@ -62,7 +62,7 @@ data = data[:150]
 # optimizer = nlp.initialize()
 
 # # Train the model
-# n_iter = 5
+# n_iter = 10
 # for itn in range(n_iter):
 #     random.shuffle(training_examples)
 #     losses = {}
@@ -74,9 +74,9 @@ data = data[:150]
 #     print(f"Losses at iteration {itn}: {losses}")
 
 # # Save the model
-model_output_path = "mental_health_ner_model"
+model_output_path = "even_new_mental_health_ner_model"
 # nlp.to_disk(model_output_path)
-# print(f"Model saved to: {model_output_path}")
+# # print(f"Model saved to: {model_output_path}")
 
 # Function to load the trained model
 def load_model(model_path):
@@ -89,19 +89,19 @@ loaded_nlp = load_model(model_output_path)
 # load 100 random samples from the dataset (columns: User Input, )
 
 # load test data into test texts
-test_texts = test_data["User Input"].tolist()
+# test_texts = test_data["User Input"].tolist()
 
-# test_texts = [
-#     "I've been feeling very anxious lately.",
-#     "I'm so tired all the time and can't seem to focus on anything.",
-#     "Lately I've been feeling really depressed and hopeless.",
-#     "I get nervous around new people",
-#     "I'm constantly worried about everything.",
-#     "I’m trying, but I’m still feeling very anxious.",
-#     "I feel hopeful sometimes and sometimes im lonely and confused",
-#     "I am feeling hurt and depression",
-#     "Im so sad",
-# ]
+test_texts = [
+    "I've been feeling very anxious lately.",
+    "I'm so tired all the time and can't seem to focus on anything.",
+    "Lately I've been feeling really depressed and hopeless.",
+    "I get nervous around new people",
+    "I'm constantly worried about everything.",
+    "I’m trying, but I’m still feeling very anxious.",
+    "I feel hopeful sometimes and sometimes im lonely and confused",
+    "I am feeling hurt and depression",
+    "Im so sad",
+]
 
 # Process each test text
 for text in test_texts:
