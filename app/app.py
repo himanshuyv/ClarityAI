@@ -67,16 +67,15 @@ def signup():
 
 @app.route('/chat', methods=['POST'])
 def chat():
-    if 'user_id' not in session:
-        return jsonify({'response': 'Please log in to chat.'})
-
     user_input = request.json.get('message')
     bot_response = f"Bot: You said '{user_input}'"
 
     # Save to Chat History
-    chat = ChatHistory(user_id=session['user_id'], message=user_input, response=bot_response)
-    db.session.add(chat)
-    db.session.commit()
+    if 'user_id' in session:
+        user_id = session['user_id']
+        chat_history = ChatHistory(user_id=user_id, message=user_input, response=bot_response)
+        db.session.add(chat_history)
+        db.session.commit()
 
     return jsonify(response=bot_response)
 
@@ -90,6 +89,17 @@ def history():
     history_data = [{'message': chat.message, 'response': chat.response} for chat in history]
 
     return jsonify(history=history_data)
+
+@app.route('/load_chat/<int:chat_id>')
+def load_chat(chat_id):
+    if 'user_id' not in session:
+        return jsonify({'messages': []})
+    
+    chat_history = ChatHistory.query.filter_by(id=chat_id, user_id=session['user_id']).all()
+    messages = [{'text': chat.message, 'sender': 'user'} for chat in chat_history]
+    messages += [{'text': chat.response, 'sender': 'bot'} for chat in chat_history]
+    return jsonify({'messages': messages})
+
 
 if __name__ == '__main__':
     with app.app_context():
