@@ -93,7 +93,9 @@ test_texts = [
     "I get nervous around new people",
     "I'm constantly worried about everything.",
     "I’m trying, but I’m still feeling very anxious.",
-    "I feel hopeful sometimes and sometimes im lonely and confused"
+    "I feel hopeful sometimes and sometimes im lonely and confused",
+    "I am feeling hurt and depression",
+    "Im so sad",
 ]
 
 # Process each test text
