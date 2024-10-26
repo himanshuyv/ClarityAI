@@ -7,35 +7,23 @@
     <title>Chatbot</title>
 </head>
 <body>
-    <!-- Header Section -->
     <header class="header">
         <div class="header-left">
             <h1>Chatbot Page</h1>
         </div>
         <div class="header-right">
-            <!-- if username then print username otherwise add login button using jinja-->
             <span id="user-info">
-                {% if username %}
-                    <span>Welcome, {{ username }}</span>
-                    <button onclick="window.location.href='/logout'">Logout</button>
-                {% else %}
-                    <button onclick="window.location.href='/login'">Login</button>
-                {% endif %}
+                <span>Welcome, {{ username }}</span>
+                <button onclick="window.location.href='/logout'">Logout</button>
             </span>
-
         </div>
     </header>
 
-    <!-- Chat Container -->
     <div class="main">
-        {% if session.get('user_id') %}
-      <!-- History Bar -->
-      <div class="chat-history">
-        <h2>Chat History</h2>
-        <button onclick="startNewChat()">New Chat</button>
-        <ul id="history-list"></ul>
+      <div class="result">
+        <button style="width: 30%;" onclick="startNewChat()">New Chat</button>
+        <h2>Time Shift</h2>
       </div>
-      {% endif %}
         <div class="chat-container">
             <div id="chat-box" class="chat-box"></div>
             <div class="input-container">
