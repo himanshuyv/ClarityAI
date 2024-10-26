@@ -3,7 +3,7 @@ from spacy.training.example import Example
 import random
 import pandas as pd
 import torch
-from tqdm import tqdm  # Import tqdm for progress bars
+from tqdm import tqdm
 
 # Check if MPS is available
 device = "mps" if torch.backends.mps.is_available() else "cpu"
@@ -17,66 +17,65 @@ data = data.sample(frac=1)
 test_data = data[400:]
 data = data[:400]
 
-# # Convert to DataFrame
-# df = pd.DataFrame(data)
+# Convert to DataFrame
+df = pd.DataFrame(data)
 
-# # # Create the list of tuples
-# training_data = []
+# # Create the list of tuples
+training_data = []
 
-# for index, row in df.iterrows():
-#     user_input = row["User Input"]
-#     extracted_concern = row["Extracted Concern"]
+for index, row in df.iterrows():
+    user_input = row["User Input"]
+    extracted_concern = row["Extracted Concern"]
     
-#     start_index = user_input.find(extracted_concern)
-#     end_index = start_index + len(extracted_concern)
+    start_index = user_input.find(extracted_concern)
+    end_index = start_index + len(extracted_concern)
     
-#     training_data.append((user_input, {"entities": [(start_index, end_index, "CONCERN")]}))
+    training_data.append((user_input, {"entities": [(start_index, end_index, "CONCERN")]}))
 
-# # Initialize a blank English model
-# nlp = spacy.blank("en")
+# Initialize a blank English model
+nlp = spacy.blank("en")
 
-# # Add NER component if it's not present
-# if "ner" not in nlp.pipe_names:
-#     ner = nlp.add_pipe("ner", last=True)
-# else:
-#     ner = nlp.get_pipe("ner")
+# Add NER component if it's not present
+if "ner" not in nlp.pipe_names:
+    ner = nlp.add_pipe("ner", last=True)
+else:
+    ner = nlp.get_pipe("ner")
 
-# # Add labels to the NER component
-# for _, annotations in training_data:
-#     for ent in annotations.get("entities"):
-#         ner.add_label(ent[2])
+# Add labels to the NER component
+for _, annotations in training_data:
+    for ent in annotations.get("entities"):
+        ner.add_label(ent[2])
 
-# # Prepare the data for training
-# def prepare_training_data(data):
-#     training_examples = []
-#     for text, annotations in data:
-#         doc = nlp.make_doc(text)
-#         example = Example.from_dict(doc, annotations)
-#         training_examples.append(example)
-#     return training_examples
+# Prepare the data for training
+def prepare_training_data(data):
+    training_examples = []
+    for text, annotations in data:
+        doc = nlp.make_doc(text)
+        example = Example.from_dict(doc, annotations)
+        training_examples.append(example)
+    return training_examples
 
-# # Convert data to spaCy's training format
-# training_examples = prepare_training_data(training_data)
+# Convert data to spaCy's training format
+training_examples = prepare_training_data(training_data)
 
-# # Training the NER model``
-# optimizer = nlp.initialize()
+# Training the NER model``
+optimizer = nlp.initialize()
 
-# # Train the model
-# n_iter = 10
-# for itn in range(n_iter):
-#     random.shuffle(training_examples)
-#     losses = {}
+# Train the model
+n_iter = 10
+for itn in range(n_iter):
+    random.shuffle(training_examples)
+    losses = {}
     
-#     # Create minibatches and wrap in tqdm for progress bar
-#     for batch in tqdm(spacy.util.minibatch(training_examples, size=2), desc=f"Iteration {itn + 1}/{n_iter}"):
-#         nlp.update(batch, drop=0.35, losses=losses)
+    # Create minibatches and wrap in tqdm for progress bar
+    for batch in tqdm(spacy.util.minibatch(training_examples, size=2), desc=f"Iteration {itn + 1}/{n_iter}"):
+        nlp.update(batch, drop=0.35, losses=losses)
     
-#     print(f"Losses at iteration {itn}: {losses}")
+    print(f"Losses at iteration {itn}: {losses}")
 
 # # Save the model
 model_output_path = "even_new_mental_health_ner_model"
-# nlp.to_disk(model_output_path)
-# # print(f"Model saved to: {model_output_path}")
+nlp.to_disk(model_output_path)
 
 # Function to load the trained model
 def load_model(model_path):
@@ -86,9 +85,6 @@ def load_model(model_path):
 # Example usage of the load_model function
 loaded_nlp = load_model(model_output_path)
 
-# load 100 random samples from the dataset (columns: User Input, )
-
-# load test data into test texts
 # test_texts = test_data["User Input"].tolist()
 
 test_texts = [
