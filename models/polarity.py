@@ -63,3 +63,11 @@ class PolarityFinder:
             "Validation Accuracy": self.val_accuracy,
             "Test Accuracy": self.test_accuracy,
         }
+
+    def get_predictions(self, x_data):
+        """Returns a list of predictions for the given dataset."""
+        predictions = []
+        for text in x_data:
+            predicted_polarity = self.predict_polarity(text)
+            predictions.append(predicted_polarity)
+        return predictions

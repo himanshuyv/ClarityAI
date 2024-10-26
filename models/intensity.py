@@ -57,3 +57,7 @@ class IntensityScorer:
         predictions = self.predict()
         accuracy = accuracy_score(self.y_test, predictions)
         return accuracy
+    
+    def get_predictions(self):
+        """Returns the list of predictions for the test dataset."""
+        return self.predict()

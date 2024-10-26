@@ -15,6 +15,10 @@ class CategoryClassifier:
         """Predict categories for given input data."""
         return self.model.predict(x)
 
+    def predict_list(self, phrases):
+        """Predict categories for a list of phrases."""
+        return self.predict(phrases)
+
     def evaluate(self, x_test, y_test):
         """Evaluate the model on test data, returning accuracy and precision."""
         y_pred = self.predict(x_test)
