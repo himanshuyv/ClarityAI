@@ -1,0 +1,221 @@
+User Input,Polarity,Extracted Concern,Category,Intensity
+Every day I'm can't sleep well.,Negative,can't sleep well,Insomnia,8
+Every day I'm confused about job prospects.,Negative,confused about job prospects,Career Confusion,6
+Every day I'm constantly worried.,Negative,constantly worried,Anxiety,7
+Every day I'm extremely stressed.,Negative,extremely stressed,Stress,8
+Every day I'm feeling hopeful.,Positive,feeling hopeful,Positive Outlook,7
+Every day I'm feeling much better.,Positive,feeling much better,Positive Outlook,6
+Every day I'm feeling very anxious.,Negative,feeling very anxious,Anxiety,7
+Every day I'm feeling very low.,Negative,feeling very low,Depression,8
+Every day I'm happy and excited.,Positive,happy and excited,Positive Outlook,7
+Every day I'm not eating properly.,Negative,not eating properly,Eating Disorder,6
+Every day I'm worried about health.,Negative,worried about health,Health Anxiety,7
+"For a while now, I've been can't sleep well.",Negative,can't sleep well,Insomnia,6
+"For a while now, I've been confused about job prospects.",Negative,confused about job prospects,Career Confusion,5
+"For a while now, I've been constantly worried.",Negative,constantly worried,Anxiety,6
+"For a while now, I've been extremely stressed.",Negative,extremely stressed,Stress,6
+"For a while now, I've been feeling hopeful.",Positive,feeling hopeful,Positive Outlook,5
+"For a while now, I've been feeling much better.",Positive,feeling much better,Positive Outlook,6
+"For a while now, I've been feeling very anxious.",Negative,feeling very anxious,Anxiety,6
+"For a while now, I've been feeling very low.",Negative,feeling very low,Depression,7
+"For a while now, I've been happy and excited.",Positive,happy and excited,Positive Outlook,6
+"For a while now, I've been not eating properly.",Negative,not eating properly,Eating Disorder,6
+"For a while now, I've been worried about health.",Negative,worried about health,Health Anxiety,6
+"Honestly, I'm can't sleep well.",Negative,can't sleep well,Insomnia,7
+"Honestly, I'm confused about job prospects.",Negative,confused about job prospects,Career Confusion,7
+"Honestly, I'm constantly worried.",Negative,constantly worried,Anxiety,7
+"Honestly, I'm extremely stressed.",Negative,extremely stressed,Stress,7
+"Honestly, I'm feeling hopeful.",Positive,feeling hopeful,Positive Outlook,6
+"Honestly, I'm feeling much better.",Positive,feeling much better,Positive Outlook,6
+"Honestly, I'm feeling very anxious.",Negative,feeling very anxious,Anxiety,8
+"Honestly, I'm feeling very low.",Negative,feeling very low,Depression,8
+"Honestly, I'm happy and excited.",Positive,happy and excited,Positive Outlook,7
+"Honestly, I'm not eating properly.",Negative,not eating properly,Eating Disorder,7
+"Honestly, I'm worried about health.",Negative,worried about health,Health Anxiety,7
+I am can't sleep well these days.,Negative,can't sleep well,Insomnia,6
+"I am can't sleep well, and it's affecting me.",Negative,can't sleep well,Insomnia,8
+I am confused about job prospects these days.,Negative,confused about job prospects,Career Confusion,6
+"I am confused about job prospects, and it's affecting me.",Negative,confused about job prospects,Career Confusion,8
+I am constantly worried these days.,Negative,constantly worried,Anxiety,6
+"I am constantly worried, and it's affecting me.",Negative,constantly worried,Anxiety,8
+I am extremely stressed these days.,Negative,extremely stressed,Stress,6
+"I am extremely stressed, and it's affecting me.",Negative,extremely stressed,Stress,8
+I am feeling hopeful these days.,Positive,feeling hopeful,Positive Outlook,6
+"I am feeling hopeful, and it's affecting me.",Positive,feeling hopeful,Positive Outlook,7
+I am feeling much better these days.,Positive,feeling much better,Positive Outlook,6
+"I am feeling much better, and it's affecting me.",Positive,feeling much better,Positive Outlook,7
+I am feeling very anxious these days.,Negative,feeling very anxious,Anxiety,7
+"I am feeling very anxious, and it's affecting me.",Negative,feeling very anxious,Anxiety,8
+I am feeling very low these days.,Negative,feeling very low,Depression,7
+"I am feeling very low, and it's affecting me.",Negative,feeling very low,Depression,8
+I am happy and excited these days.,Positive,happy and excited,Positive Outlook,7
+"I am happy and excited, and it's affecting me.",Positive,happy and excited,Positive Outlook,8
+I am not eating properly these days.,Negative,not eating properly,Eating Disorder,6
+"I am not eating properly, and it's affecting me.",Negative,not eating properly,Eating Disorder,8
+I am worried about health these days.,Negative,worried about health,Health Anxiety,6
+"I am worried about health, and it's affecting me.",Negative,worried about health,Health Anxiety,8
+I can't stop can't sleep well.,Negative,can't sleep well,Insomnia,9
+I can't stop confused about job prospects.,Negative,confused about job prospects,Career Confusion,8
+I can't stop constantly worried.,Negative,constantly worried,Anxiety,9
+I can't stop extremely stressed.,Negative,extremely stressed,Stress,9
+I can't stop feeling hopeful.,Positive,feeling hopeful,Positive Outlook,8
+I can't stop feeling much better.,Positive,feeling much better,Positive Outlook,8
+I can't stop feeling very anxious.,Negative,feeling very anxious,Anxiety,9
+I can't stop feeling very low.,Negative,feeling very low,Depression,9
+I can't stop happy and excited.,Positive,happy and excited,Positive Outlook,8
+I can't stop not eating properly.,Negative,not eating properly,Eating Disorder,8
+I can't stop worried about health.,Negative,worried about health,Health Anxiety,8
+I don't know why but I've been can't sleep well.,Negative,can't sleep well,Insomnia,5
+I don't know why but I've been confused about job prospects.,Negative,confused about job prospects,Career Confusion,5
+I don't know why but I've been constantly worried.,Negative,constantly worried,Anxiety,6
+I don't know why but I've been extremely stressed.,Negative,extremely stressed,Stress,6
+I don't know why but I've been feeling hopeful.,Positive,feeling hopeful,Positive Outlook,5
+I don't know why but I've been feeling much better.,Positive,feeling much better,Positive Outlook,5
+I don't know why but I've been feeling very anxious.,Negative,feeling very anxious,Anxiety,6
+I don't know why but I've been feeling very low.,Negative,feeling very low,Depression,7
+I don't know why but I've been happy and excited.,Positive,happy and excited,Positive Outlook,5
+I don't know why but I've been not eating properly.,Negative,not eating properly,Eating Disorder,5
+I don't know why but I've been worried about health.,Negative,worried about health,Health Anxiety,6
+I feel can't sleep well lately.,Negative,can't sleep well,Insomnia,5
+I feel confused about job prospects lately.,Negative,confused about job prospects,Career Confusion,5
+I feel constantly worried lately.,Negative,constantly worried,Anxiety,6
+I feel extremely stressed lately.,Negative,extremely stressed,Stress,6
+I feel feeling hopeful lately.,Positive,feeling hopeful,Positive Outlook,5
+I feel feeling much better lately.,Positive,feeling much better,Positive Outlook,5
+I feel feeling very anxious lately.,Negative,feeling very anxious,Anxiety,6
+I feel feeling very low lately.,Negative,feeling very low,Depression,7
+I feel happy and excited lately.,Positive,happy and excited,Positive Outlook,6
+I feel not eating properly lately.,Negative,not eating properly,Eating Disorder,5
+I feel worried about health lately.,Negative,worried about health,Health Anxiety,5
+I think my mental state is can't sleep well.,Negative,can't sleep well,Insomnia,6
+I think my mental state is confused about job prospects.,Negative,confused about job prospects,Career Confusion,6
+I think my mental state is constantly worried.,Negative,constantly worried,Anxiety,7
+I think my mental state is extremely stressed.,Negative,extremely stressed,Stress,7
+I think my mental state is feeling hopeful.,Positive,feeling hopeful,Positive Outlook,6
+I think my mental state is feeling much better.,Positive,feeling much better,Positive Outlook,6
+I think my mental state is feeling very anxious.,Negative,feeling very anxious,Anxiety,7
+I think my mental state is feeling very low.,Negative,feeling very low,Depression,7
+I think my mental state is happy and excited.,Positive,happy and excited,Positive Outlook,6
+I think my mental state is not eating properly.,Negative,not eating properly,Eating Disorder,6
+I think my mental state is worried about health.,Negative,worried about health,Health Anxiety,7
+It feels like I'm constantly can't sleep well.,Negative,can't sleep well,Insomnia,8
+It feels like I'm constantly confused about job prospects.,Negative,confused about job prospects,Career Confusion,8
+It feels like I'm constantly worried.,Negative,constantly worried,Anxiety,8
+It feels like I'm constantly extremely stressed.,Negative,extremely stressed,Stress,9
+It feels like I'm constantly feeling hopeful.,Positive,feeling hopeful,Positive Outlook,8
+It feels like I'm constantly feeling much better.,Positive,feeling much better,Positive Outlook,8
+It feels like I'm constantly feeling very anxious.,Negative,feeling very anxious,Anxiety,8
+It feels like I'm constantly feeling very low.,Negative,feeling very low,Depression,8
+It feels like I'm constantly happy and excited.,Positive,happy and excited,Positive Outlook,8
+It feels like I'm constantly not eating properly.,Negative,not eating properly,Eating Disorder,8
+It feels like I'm constantly worried about health.,Negative,worried about health,Health Anxiety,8
+"It's been hard, I am can't sleep well.",Negative,can't sleep well,Insomnia,7
+"It's been hard, I am confused about job prospects.",Negative,confused about job prospects,Career Confusion,7
+"It's been hard, I am constantly worried.",Negative,constantly worried,Anxiety,7
+"It's been hard, I am extremely stressed.",Negative,extremely stressed,Stress,7
+"It's been hard, I am feeling hopeful.",Positive,feeling hopeful,Positive Outlook,5
+"It's been hard, I am feeling much better.",Positive,feeling much better,Positive Outlook,5
+"It's been hard, I am feeling very anxious.",Negative,feeling very anxious,Anxiety,7
+"It's been hard, I am feeling very low.",Negative,feeling very low,Depression,8
+"It's been hard, I am happy and excited.",Positive,happy and excited,Positive Outlook,5
+"It's been hard, I am not eating properly.",Negative,not eating properly,Eating Disorder,7
+"It's been hard, I am worried about health.",Negative,worried about health,Health Anxiety,7
+"It's getting worse, I've been can't sleep well.",Negative,can't sleep well,Insomnia,9
+"It's getting worse, I've been confused about job prospects.",Negative,confused about job prospects,Career Confusion,9
+"It's getting worse, I've been constantly worried.",Negative,constantly worried,Anxiety,9
+"It's getting worse, I've been extremely stressed.",Negative,extremely stressed,Stress,9
+"It's getting worse, I've been feeling hopeful.",Positive,feeling hopeful,Positive Outlook,4
+"It's getting worse, I've been feeling much better.",Positive,feeling much better,Positive Outlook,4
+"It's getting worse, I've been feeling very anxious.",Negative,feeling very anxious,Anxiety,9
+"It's getting worse, I've been feeling very low.",Negative,feeling very low,Depression,9
+"It's getting worse, I've been happy and excited.",Positive,happy and excited,Positive Outlook,4
+"It's getting worse, I've been not eating properly.",Negative,not eating properly,Eating Disorder,9
+"It's getting worse, I've been worried about health.",Negative,worried about health,Health Anxiety,9
+"It's a struggle, I'm can't sleep well.",Negative,can't sleep well,Insomnia,7
+"It's a struggle, I'm confused about job prospects.",Negative,confused about job prospects,Career Confusion,7
+"It's a struggle, I'm constantly worried.",Negative,constantly worried,Anxiety,8
+"It's a struggle, I'm extremely stressed.",Negative,extremely stressed,Stress,8
+"It's a struggle, I'm feeling hopeful.",Positive,feeling hopeful,Positive Outlook,5
+"It's a struggle, I'm feeling much better.",Positive,feeling much better,Positive Outlook,5
+"It's a struggle, I'm feeling very anxious.",Negative,feeling very anxious,Anxiety,8
+"It's a struggle, I'm feeling very low.",Negative,feeling very low,Depression,8
+"It's a struggle, I'm happy and excited.",Positive,happy and excited,Positive Outlook,5
+"It's a struggle, I'm not eating properly.",Negative,not eating properly,Eating Disorder,7
+"It's a struggle, I'm worried about health.",Negative,worried about health,Health Anxiety,7
+"I'm trying, but I'm still can't sleep well.",Negative,can't sleep well,Insomnia,6
+"I'm trying, but I'm still confused about job prospects.",Negative,confused about job prospects,Career Confusion,6
+"I'm trying, but I'm still constantly worried.",Negative,constantly worried,Anxiety,7
+"I'm trying, but I'm still extremely stressed.",Negative,extremely stressed,Stress,7
+"I'm trying, but I'm still feeling hopeful.",Positive,feeling hopeful,Positive Outlook,5
+"I'm trying, but I'm still feeling much better.",Positive,feeling much better,Positive Outlook,5
+"I'm trying, but I'm still feeling very anxious.",Negative,feeling very anxious,Anxiety,7
+"I'm trying, but I'm still feeling very low.",Negative,feeling very low,Depression,7
+"I'm trying, but I'm still happy and excited.",Positive,happy and excited,Positive Outlook,5
+"I'm trying, but I'm still not eating properly.",Negative,not eating properly,Eating Disorder,6
+"I'm trying, but I'm still worried about health.",Negative,worried about health,Health Anxiety,6
+"Lately, I've been can't sleep well.",Negative,can't sleep well,Insomnia,5
+"Lately, I've been confused about job prospects.",Negative,confused about job prospects,Career Confusion,5
+"Lately, I've been constantly worried.",Negative,constantly worried,Anxiety,6
+"Lately, I've been extremely stressed.",Negative,extremely stressed,Stress,6
+"Lately, I've been feeling hopeful.",Positive,feeling hopeful,Positive Outlook,5
+"Lately, I've been feeling much better.",Positive,feeling much better,Positive Outlook,5
+"Lately, I've been feeling very anxious.",Negative,feeling very anxious,Anxiety,6
+"Lately, I've been feeling very low.",Negative,feeling very low,Depression,6
+"Lately, I've been happy and excited.",Positive,happy and excited,Positive Outlook,6
+"Lately, I've been not eating properly.",Negative,not eating properly,Eating Disorder,5
+"Lately, I've been worried about health.",Negative,worried about health,Health Anxiety,5
+My mind feels like it's can't sleep well.,Negative,can't sleep well,Insomnia,6
+My mind feels like it's confused about job prospects.,Negative,confused about job prospects,Career Confusion,6
+My mind feels like it's constantly worried.,Negative,constantly worried,Anxiety,7
+My mind feels like it's extremely stressed.,Negative,extremely stressed,Stress,7
+My mind feels like it's feeling hopeful.,Positive,feeling hopeful,Positive Outlook,6
+My mind feels like it's feeling much better.,Positive,feeling much better,Positive Outlook,6
+My mind feels like it's feeling very anxious.,Negative,feeling very anxious,Anxiety,7
+My mind feels like it's feeling very low.,Negative,feeling very low,Depression,7
+My mind feels like it's happy and excited.,Positive,happy and excited,Positive Outlook,6
+My mind feels like it's not eating properly.,Negative,not eating properly,Eating Disorder,6
+My mind feels like it's worried about health.,Negative,worried about health,Health Anxiety,6
+"Recently, I've noticed that I'm can't sleep well.",Negative,can't sleep well,Insomnia,5
+"Recently, I've noticed that I'm confused about job prospects.",Negative,confused about job prospects,Career Confusion,6
+"Recently, I've noticed that I'm constantly worried.",Negative,constantly worried,Anxiety,7
+"Recently, I've noticed that I'm extremely stressed.",Negative,extremely stressed,Stress,6
+"Recently, I've noticed that I'm feeling hopeful.",Positive,feeling hopeful,Positive Outlook,5
+"Recently, I've noticed that I'm feeling much better.",Positive,feeling much better,Positive Outlook,5
+"Recently, I've noticed that I'm feeling very anxious.",Negative,feeling very anxious,Anxiety,6
+"Recently, I've noticed that I'm feeling very low.",Negative,feeling very low,Depression,7
+"Recently, I've noticed that I'm happy and excited.",Positive,happy and excited,Positive Outlook,5
+"Recently, I've noticed that I'm not eating properly.",Negative,not eating properly,Eating Disorder,5
+"Recently, I've noticed that I'm worried about health.",Negative,worried about health,Health Anxiety,6
+"Sometimes, I think I'm can't sleep well.",Negative,can't sleep well,Insomnia,4
+"Sometimes, I think I'm confused about job prospects.",Negative,confused about job prospects,Career Confusion,4
+"Sometimes, I think I'm constantly worried.",Negative,constantly worried,Anxiety,5
+"Sometimes, I think I'm extremely stressed.",Negative,extremely stressed,Stress,5
+"Sometimes, I think I'm feeling hopeful.",Positive,feeling hopeful,Positive Outlook,4
+"Sometimes, I think I'm feeling much better.",Positive,feeling much better,Positive Outlook,4
+"Sometimes, I think I'm feeling very anxious.",Negative,feeling very anxious,Anxiety,5
+"Sometimes, I think I'm feeling very low.",Negative,feeling very low,Depression,5
+"Sometimes, I think I'm happy and excited.",Positive,happy and excited,Positive Outlook,4
+"Sometimes, I think I'm not eating properly.",Negative,not eating properly,Eating Disorder,4
+"Sometimes, I think I'm worried about health.",Negative,worried about health,Health Anxiety,4
+"These past few days, I've been feeling can't sleep well.",Negative,can't sleep well,Insomnia,5
+"These past few days, I've been feeling confused about job prospects.",Negative,confused about job prospects,Career Confusion,5
+"These past few days, I've been feeling constantly worried.",Negative,constantly worried,Anxiety,6
+"These past few days, I've been feeling extremely stressed.",Negative,extremely stressed,Stress,6
+"These past few days, I've been feeling hopeful.",Positive,feeling hopeful,Positive Outlook,5
+"These past few days, I've been feeling much better.",Positive,feeling much better,Positive Outlook,5
+"These past few days, I've been feeling very anxious.",Negative,feeling very anxious,Anxiety,6
+"These past few days, I've been feeling very low.",Negative,feeling very low,Depression,6
+"These past few days, I've been feeling happy and excited.",Positive,happy and excited,Positive Outlook,5
+"These past few days, I've been feeling not eating properly.",Negative,not eating properly,Eating Disorder,5
+"These past few days, I've been feeling worried about health.",Negative,worried about health,Health Anxiety,6
+"Things have been tough, I keep can't sleep well.",Negative,can't sleep well,Insomnia,7
+"Things have been tough, I keep confused about job prospects.",Negative,confused about job prospects,Career Confusion,7
+"Things have been tough, I keep constantly worried.",Negative,constantly worried,Anxiety,7
+"Things have been tough, I keep extremely stressed.",Negative,extremely stressed,Stress,7
+"Things have been tough, I keep feeling hopeful.",Positive,feeling hopeful,Positive Outlook,4
+"Things have been tough, I keep feeling much better.",Positive,feeling much better,Positive Outlook,4
+"Things have been tough, I keep feeling very anxious.",Negative,feeling very anxious,Anxiety,7
+"Things have been tough, I keep feeling very low.",Negative,feeling very low,Depression,7
+"Things have been tough, I keep happy and excited.",Positive,happy and excited,Positive Outlook,4
+"Things have been tough, I keep not eating properly.",Negative,not eating properly,Eating Disorder,7
+"Things have been tough, I keep worried about health.",Negative,worried about health,Health Anxiety,7
