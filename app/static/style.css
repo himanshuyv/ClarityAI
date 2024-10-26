@@ -250,6 +250,7 @@ button:hover {
 
 .table-container th {
   background-color: #303044;
+  border-color: #e5e5e5;
   color: #10a37f;
 }
 
