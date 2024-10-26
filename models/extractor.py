@@ -9,14 +9,18 @@ from tqdm import tqdm  # Import tqdm for progress bars
 device = "mps" if torch.backends.mps.is_available() else "cpu"
 
 # Sample data in the specified CSV format
-data = pd.read_csv("../data/mental_health_dataset.csv")
-data = data.sample(n=50000)
-# data = data[:10000]
+data = pd.read_csv("../data/new_mental_health_dataset.csv")
+# data = data.sample(n=50000)
 
-# Convert to DataFrame
-df = pd.DataFrame(data)
+data = data.sample(frac=1)
 
-# # Create the list of tuples
+test_data = data[150:]
+data = data[:150]
+
+# # Convert to DataFrame
+# df = pd.DataFrame(data)
+
+# # # Create the list of tuples
 # training_data = []
 
 # for index, row in df.iterrows():
@@ -84,19 +88,20 @@ loaded_nlp = load_model(model_output_path)
 
 # load 100 random samples from the dataset (columns: User Input, )
 
-# test_texts = df["User Input"].sample(n=100).tolist()
+# load test data into test texts
+test_texts = test_data["User Input"].tolist()
 
-test_texts = [
-    "I've been feeling very anxious lately.",
-    "I'm so tired all the time and can't seem to focus on anything.",
-    "Lately I've been feeling really depressed and hopeless.",
-    "I get nervous around new people",
-    "I'm constantly worried about everything.",
-    "I’m trying, but I’m still feeling very anxious.",
-    "I feel hopeful sometimes and sometimes im lonely and confused",
-    "I am feeling hurt and depression",
-    "Im so sad",
-]
+# test_texts = [
+#     "I've been feeling very anxious lately.",
+#     "I'm so tired all the time and can't seem to focus on anything.",
+#     "Lately I've been feeling really depressed and hopeless.",
+#     "I get nervous around new people",
+#     "I'm constantly worried about everything.",
+#     "I’m trying, but I’m still feeling very anxious.",
+#     "I feel hopeful sometimes and sometimes im lonely and confused",
+#     "I am feeling hurt and depression",
+#     "Im so sad",
+# ]
 
 # Process each test text
 for text in test_texts:
