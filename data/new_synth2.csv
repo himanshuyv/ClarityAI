@@ -1,0 +1,868 @@
+User Input,Polarity,Extracted Concern,Category,Intensity
+I toss and turn every night because I can't sleep well and feel exhausted the next day.,Negative,can't sleep well,Insomnia,2
+My mind races constantly and I have trouble sleeping even when I'm tired.,Negative,have trouble sleeping,Insomnia,4
+Night after night I'm unable to sleep despite trying everything.,Negative,unable to sleep,Insomnia,1
+These past few weeks I can't sleep well no matter what remedies I try.,Negative,can't sleep well,Insomnia,2
+Every evening I have trouble sleeping and it's affecting my work performance.,Negative,have trouble sleeping,Insomnia,4
+I've been taking melatonin but still can't sleep well at all.,Negative,can't sleep well,Insomnia,2
+My anxiety peaks at night and I'm unable to sleep properly.,Negative,unable to sleep,Insomnia,1
+For the third week now I have trouble sleeping through the entire night.,Negative,have trouble sleeping,Insomnia,4
+Despite being exhausted I can't sleep well and it's frustrating.,Negative,can't sleep well,Insomnia,2
+The stress from work means I'm unable to sleep most nights.,Negative,unable to sleep,Insomnia,1
+I've tried everything but I have trouble sleeping consistently.,Negative,have trouble sleeping,Insomnia,4
+My new medication is making it so I can't sleep well anymore.,Negative,can't sleep well,Insomnia,2
+Since moving to the city I'm unable to sleep due to the noise.,Negative,unable to sleep,Insomnia,1
+The past month I have trouble sleeping and feel completely drained.,Negative,have trouble sleeping,Insomnia,4
+My irregular schedule means I can't sleep well during normal hours.,Negative,can't sleep well,Insomnia,2
+Every single night I'm unable to sleep until early morning.,Negative,unable to sleep,Insomnia,1
+Coffee doesn't even affect me anymore but I have trouble sleeping anyway.,Negative,have trouble sleeping,Insomnia,4
+The neighbors are so loud that I can't sleep well most nights.,Negative,can't sleep well,Insomnia,2
+My racing thoughts mean I'm unable to sleep without medication.,Negative,unable to sleep,Insomnia,1
+Ever since the accident I have trouble sleeping through the night.,Negative,have trouble sleeping,Insomnia,4
+The summer heat means I can't sleep well even with the fan on.,Negative,can't sleep well,Insomnia,2
+Working night shifts has left me unable to sleep during the day.,Negative,unable to sleep,Insomnia,1
+This new pillow isn't helping - I have trouble sleeping more than ever.,Negative,have trouble sleeping,Insomnia,4
+My partner snores so loudly that I can't sleep well anymore.,Negative,can't sleep well,Insomnia,2
+The stress of deadlines means I'm unable to sleep properly.,Negative,unable to sleep,Insomnia,1
+Since becoming a parent I have trouble sleeping even when the baby does.,Negative,have trouble sleeping,Insomnia,4
+The new streetlight outside means I can't sleep well without blackout curtains.,Negative,can't sleep well,Insomnia,2
+My chronic pain means I'm unable to sleep through the night.,Negative,unable to sleep,Insomnia,1
+The caffeine from my evening tea means I have trouble sleeping.,Negative,have trouble sleeping,Insomnia,4
+This mattress is so uncomfortable that I can't sleep well on it.,Negative,can't sleep well,Insomnia,2
+The upcoming presentation has me unable to sleep from anxiety.,Negative,unable to sleep,Insomnia,1
+Since starting this diet I have trouble sleeping through the night.,Negative,have trouble sleeping,Insomnia,4
+The constant worry about bills means I can't sleep well lately.,Negative,can't sleep well,Insomnia,2
+My new apartment is too quiet and I'm unable to sleep here.,Negative,unable to sleep,Insomnia,1
+The jet lag means I have trouble sleeping at normal hours now.,Negative,have trouble sleeping,Insomnia,4
+These nightmares mean I can't sleep well without fear.,Negative,can't sleep well,Insomnia,2
+The full moon makes me unable to sleep most nights.,Negative,unable to sleep,Insomnia,1
+My new exercise routine means I have trouble sleeping from muscle aches.,Negative,have trouble sleeping,Insomnia,4
+The construction next door means I can't sleep well during the day.,Negative,can't sleep well,Insomnia,2
+Ever since the breakup I'm unable to sleep in this empty bed.,Negative,unable to sleep,Insomnia,1
+The humidity makes me have trouble sleeping without air conditioning.,Negative,have trouble sleeping,Insomnia,4
+My restless legs mean I can't sleep well most nights.,Negative,can't sleep well,Insomnia,2
+The weekend parties next door leave me unable to sleep.,Negative,unable to sleep,Insomnia,1
+Since starting this medication I have trouble sleeping through the night.,Negative,have trouble sleeping,Insomnia,4
+The street noise means I can't sleep well in this apartment.,Negative,can't sleep well,Insomnia,2
+My back pain leaves me unable to sleep comfortably.,Negative,unable to sleep,Insomnia,1
+These scary movies mean I have trouble sleeping when alone.,Negative,have trouble sleeping,Insomnia,4
+The seasonal changes mean I can't sleep well lately.,Negative,can't sleep well,Insomnia,2
+Depression makes me unable to sleep at regular hours.,Negative,unable to sleep,Insomnia,1
+My new work schedule means I have trouble sleeping normally.,Negative,have trouble sleeping,Insomnia,4
+User Input,Polarity,Extracted Concern,Category,1
+I've been tossing and turning all night because I can't sleep well.,Negative,can't sleep well,Insomnia,2
+Work stress is making me unable to sleep properly.,Negative,unable to sleep,Insomnia,1
+Since last month I have trouble sleeping and it's affecting my work.,Negative,have trouble sleeping,Insomnia,4
+My new medication is making me unable to sleep at night.,Negative,unable to sleep,Insomnia,1
+The noise from construction means I can't sleep well anymore.,Negative,can't sleep well,Insomnia,2
+I have trouble sleeping since moving to the city.,Negative,have trouble sleeping,Insomnia,4
+My anxiety is getting worse and I can't sleep well.,Negative,can't sleep well,Insomnia,2
+The summer heat makes me unable to sleep comfortably.,Negative,unable to sleep,Insomnia,1
+Ever since the breakup I have trouble sleeping.,Negative,have trouble sleeping,Insomnia,4
+Coffee in the afternoon means I can't sleep well at night.,Negative,can't sleep well,Insomnia,2
+My new neighbors are loud and I'm unable to sleep.,Negative,unable to sleep,Insomnia,1
+Being a new parent means I have trouble sleeping consistently.,Negative,have trouble sleeping,Insomnia,4
+The stress of deadlines means I can't sleep well lately.,Negative,can't sleep well,Insomnia,2
+My racing thoughts make me unable to sleep most nights.,Negative,unable to sleep,Insomnia,1
+Since starting this diet I have trouble sleeping through the night.,Negative,have trouble sleeping,Insomnia,4
+The change in seasons means I can't sleep well anymore.,Negative,can't sleep well,Insomnia,2
+My back pain makes me unable to sleep comfortably.,Negative,unable to sleep,Insomnia,1
+Living next to the highway means I have trouble sleeping.,Negative,have trouble sleeping,Insomnia,4
+The upcoming exam has me so stressed I can't sleep well.,Negative,can't sleep well,Insomnia,2
+My irregular work schedule means I'm unable to sleep normally.,Negative,unable to sleep,Insomnia,1
+This jet lag means I have trouble sleeping at the right times.,Negative,have trouble sleeping,Insomnia,4
+The full moon makes it so I can't sleep well.,Negative,can't sleep well,Insomnia,2
+My partner's snoring means I'm unable to sleep properly.,Negative,unable to sleep,Insomnia,1
+Since getting COVID I have trouble sleeping through the night.,Negative,have trouble sleeping,Insomnia,4
+The humidity in summer means I can't sleep well.,Negative,can't sleep well,Insomnia,2
+My new pillow means I'm unable to sleep comfortably.,Negative,unable to sleep,Insomnia,1
+Working night shifts means I have trouble sleeping during the day.,Negative,have trouble sleeping,Insomnia,4
+The street lights outside mean I can't sleep well without blinds.,Negative,can't sleep well,Insomnia,2
+My allergies make me unable to sleep peacefully.,Negative,unable to sleep,Insomnia,1
+The sound of rain means I have trouble sleeping sometimes.,Negative,have trouble sleeping,Insomnia,4
+This new mattress means I can't sleep well yet.,Negative,can't sleep well,Insomnia,2
+My chronic pain means I'm unable to sleep through the night.,Negative,unable to sleep,Insomnia,1
+The thin walls mean I have trouble sleeping with noisy neighbors.,Negative,have trouble sleeping,Insomnia,4
+Thinking about work means I can't sleep well on Sundays.,Negative,can't sleep well,Insomnia,2
+My restless legs mean I'm unable to sleep easily.,Negative,unable to sleep,Insomnia,1
+The time change means I have trouble sleeping this week.,Negative,have trouble sleeping,Insomnia,4
+Playing video games late means I can't sleep well after.,Negative,can't sleep well,Insomnia,2
+My dry throat means I'm unable to sleep comfortably.,Negative,unable to sleep,Insomnia,1
+The cold weather means I have trouble sleeping without extra blankets.,Negative,have trouble sleeping,Insomnia,4
+Financial stress means I can't sleep well these days.,Negative,can't sleep well,Insomnia,2
+My new exercise routine means I'm unable to sleep right away.,Negative,unable to sleep,Insomnia,1
+The weekend parties next door mean I have trouble sleeping.,Negative,have trouble sleeping,Insomnia,4
+This upcoming presentation means I can't sleep well.,Negative,can't sleep well,Insomnia,2
+My sinus problems mean I'm unable to sleep through the night.,Negative,unable to sleep,Insomnia,1
+The cat running around means I have trouble sleeping sometimes.,Negative,have trouble sleeping,Insomnia,4
+Watching scary movies means I can't sleep well afterward.,Negative,can't sleep well,Insomnia,2
+My midnight hunger makes me unable to sleep peacefully.,Negative,unable to sleep,Insomnia,1
+The creaky floorboards mean I have trouble sleeping when it's windy.,Negative,have trouble sleeping,Insomnia,4
+Too much screen time means I can't sleep well lately.,Negative,can't sleep well,Insomnia,2
+My worried mind means I'm unable to sleep soundly.,Negative,unable to sleep,Insomnia,1
+I'm a little stressed about the upcoming dentist appointment.,Negative,little stressed,Stress,2
+Work has me very stressed with all these deadlines.,Negative,very stressed,Stress,4
+I'm extremely stressed about my final exams next week.,Negative,extremely stressed,Stress,4
+Planning this wedding has me a little stressed but I'm managing.,Negative,little stressed,Stress,2
+The house move has me very stressed right now.,Negative,very stressed,Stress,4
+My financial situation has me extremely stressed these days.,Negative,extremely stressed,Stress,4
+I'm a little stressed about meeting my partner's family.,Negative,little stressed,Stress,2
+The job interview tomorrow has me very stressed.,Negative,very stressed,Stress,4
+This medical diagnosis has me extremely stressed and worried.,Negative,extremely stressed,Stress,4
+Learning to drive has me a little stressed at times.,Negative,little stressed,Stress,2
+My workload this month has me very stressed out.,Negative,very stressed,Stress,4
+The mortgage application has me extremely stressed.,Negative,extremely stressed,Stress,4
+I'm a little stressed about starting at the new gym.,Negative,little stressed,Stress,2
+My kids' school changes have me very stressed lately.,Negative,very stressed,Stress,4
+The upcoming surgery has me extremely stressed.,Negative,extremely stressed,Stress,4
+Public speaking makes me a little stressed but I cope.,Negative,little stressed,Stress,2
+Managing the team project has me very stressed.,Negative,very stressed,Stress,4
+The custody battle has me extremely stressed.,Negative,extremely stressed,Stress,4
+I'm a little stressed about the weather forecast.,Negative,little stressed,Stress,2
+The client presentation has me very stressed today.,Negative,very stressed,Stress,4
+My visa application has me extremely stressed.,Negative,extremely stressed,Stress,4
+Cooking for guests makes me a little stressed.,Negative,little stressed,Stress,2
+The office restructuring has me very stressed.,Negative,very stressed,Stress,4
+My debt situation has me extremely stressed.,Negative,extremely stressed,Stress,4
+I'm a little stressed about changing my diet.,Negative,little stressed,Stress,2
+The family reunion has me very stressed out.,Negative,very stressed,Stress,4
+The legal dispute has me extremely stressed.,Negative,extremely stressed,Stress,4
+Shopping during sales makes me a little stressed.,Negative,little stressed,Stress,2
+My car problems have me very stressed this week.,Negative,very stressed,Stress,4
+The immigration process has me extremely stressed.,Negative,extremely stressed,Stress,4
+I'm a little stressed about the minor surgery.,Negative,little stressed,Stress,2
+The house repairs have me very stressed now.,Negative,very stressed,Stress,4
+My health issues have me extremely stressed.,Negative,extremely stressed,Stress,4
+Travel planning makes me a little stressed.,Negative,little stressed,Stress,2
+The deadline pressure has me very stressed.,Negative,very stressed,Stress,4
+The court date has me extremely stressed.,Negative,extremely stressed,Stress,4
+I'm a little stressed about the family visit.,Negative,little stressed,Stress,2
+The performance review has me very stressed.,Negative,very stressed,Stress,4
+The tax audit has me extremely stressed.,Negative,extremely stressed,Stress,4
+Pet sitting makes me a little stressed.,Negative,little stressed,Stress,2
+The company merger has me very stressed.,Negative,very stressed,Stress,4
+My career change has me extremely stressed.,Negative,extremely stressed,Stress,4
+I'm a little stressed about the blind date.,Negative,little stressed,Stress,2
+The home inspection has me very stressed.,Negative,very stressed,Stress,4
+The custody hearing has me extremely stressed.,Negative,extremely stressed,Stress,4
+Party planning makes me a little stressed.,Negative,little stressed,Stress,2
+The budget cuts have me very stressed.,Negative,very stressed,Stress,4
+The medical results have me extremely stressed.,Negative,extremely stressed,Stress,4
+I'm a little stressed about the job change.,Negative,little stressed,Stress,2
+The upcoming move has me very stressed.,Negative,very stressed,Stress,4
+The rainy weather has me feeling very low today.,Negative,feeling very low,Depression,2
+I've been feeling depressed since losing my job.,Negative,feeling depressed,Depression,4
+This divorce has me feeling very low right now.,Negative,feeling very low,Depression,2
+Winter makes me feeling depressed every year.,Negative,feeling depressed,Depression,4
+I'm feeling very low after moving to a new city.,Negative,feeling very low,Depression,2
+The loneliness has me feeling depressed lately.,Negative,feeling depressed,Depression,4
+After graduation I'm feeling very low and lost.,Negative,feeling very low,Depression,2
+My chronic pain has me feeling depressed.,Negative,feeling depressed,Depression,4
+The breakup has me feeling very low these days.,Negative,feeling very low,Depression,2
+I'm feeling depressed about my career path.,Negative,feeling depressed,Depression,4
+The family conflict has me feeling very low.,Negative,feeling very low,Depression,2
+My health issues have me feeling depressed.,Negative,feeling depressed,Depression,4
+The failed exam has me feeling very low.,Negative,feeling very low,Depression,2
+I've been feeling depressed since the accident.,Negative,feeling depressed,Depression,4
+Social isolation has me feeling very low.,Negative,feeling very low,Depression,2
+Financial stress has me feeling depressed.,Negative,feeling depressed,Depression,4
+This setback has me feeling very low today.,Negative,feeling very low,Depression,2
+Work pressure has me feeling depressed.,Negative,feeling depressed,Depression,4
+The rejection has me feeling very low.,Negative,feeling very low,Depression,2
+My struggle with weight has me feeling depressed.,Negative,feeling depressed,Depression,4
+The anniversary has me feeling very low.,Negative,feeling very low,Depression,2
+Changes in life have me feeling depressed.,Negative,feeling depressed,Depression,4
+Missing home has me feeling very low.,Negative,feeling very low,Depression,2
+These challenges have me feeling depressed.,Negative,feeling depressed,Depression,4
+The loss has me feeling very low lately.,Negative,feeling very low,Depression,2
+My situation has me feeling depressed.,Negative,feeling depressed,Depression,4
+Recent events have me feeling very low.,Negative,feeling very low,Depression,2
+This illness has me feeling depressed.,Negative,feeling depressed,Depression,4
+Family issues have me feeling very low.,Negative,feeling very low,Depression,2
+My failures have me feeling depressed.,Negative,feeling depressed,Depression,4
+Distance from friends has me feeling very low.,Negative,feeling very low,Depression,2
+Current circumstances have me feeling depressed.,Negative,feeling depressed,Depression,4
+The news today has me feeling very low.,Negative,feeling very low,Depression,2
+My relationship has me feeling depressed.,Negative,feeling depressed,Depression,4
+The holidays have me feeling very low.,Negative,feeling very low,Depression,2
+These memories have me feeling depressed.,Negative,feeling depressed,Depression,4
+Job hunting has me feeling very low.,Negative,feeling very low,Depression,2
+Recovery has me feeling depressed sometimes.,Negative,feeling depressed,Depression,4
+The silence has me feeling very low.,Negative,feeling very low,Depression,2
+My mistakes have me feeling depressed.,Negative,feeling depressed,Depression,4
+The uncertainty has me feeling very low.,Negative,feeling very low,Depression,2
+Past decisions have me feeling depressed.,Negative,feeling depressed,Depression,4
+The pressure has me feeling very low.,Negative,feeling very low,Depression,2
+These changes have me feeling depressed.,Negative,feeling depressed,Depression,4
+Daily struggles have me feeling very low.,Negative,feeling very low,Depression,2
+Self-doubt has me feeling depressed.,Negative,feeling depressed,Depression,4
+The problems have me feeling very low.,Negative,feeling very low,Depression,2
+Life changes have me feeling depressed.,Negative,feeling depressed,Depression,4
+This burden has me feeling very low.,Negative,feeling very low,Depression,2
+Everything has me feeling depressed now.,Negative,feeling depressed,Depression,4
+Retirement has me feeling very low today.,Negative,feeling very low,Depression,2
+The empty house has me feeling depressed.,Negative,feeling depressed,Depression,4
+This injury has me feeling very low now.,Negative,feeling very low,Depression,2
+My art rejection has me feeling depressed.,Negative,feeling depressed,Depression,4
+The cloudy weather has me feeling very low.,Negative,feeling very low,Depression,2
+These deadlines have me feeling depressed.,Negative,feeling depressed,Depression,4
+Lost friendships have me feeling very low.,Negative,feeling very low,Depression,2
+My career change has me feeling depressed.,Negative,feeling depressed,Depression,4
+The weekend alone has me feeling very low.,Negative,feeling very low,Depression,2
+These regrets have me feeling depressed.,Negative,feeling depressed,Depression,4
+My pet's illness has me feeling very low.,Negative,feeling very low,Depression,2
+This competition has me feeling depressed.,Negative,feeling depressed,Depression,4
+The cancelled plans have me feeling very low.,Negative,feeling very low,Depression,2
+My writer's block has me feeling depressed.,Negative,feeling depressed,Depression,4
+The grey skies have me feeling very low.,Negative,feeling very low,Depression,2
+These medical bills have me feeling depressed.,Negative,feeling depressed,Depression,4
+The quiet house has me feeling very low.,Negative,feeling very low,Depression,2
+My project failure has me feeling depressed.,Negative,feeling depressed,Depression,4
+The missed opportunity has me feeling very low.,Negative,feeling very low,Depression,2
+This rejection letter has me feeling depressed.,Negative,feeling depressed,Depression,4
+The empty inbox has me feeling very low.,Negative,feeling very low,Depression,2
+My performance review has me feeling depressed.,Negative,feeling depressed,Depression,4
+The delayed flight has me feeling very low.,Negative,feeling very low,Depression,2
+These unpaid bills have me feeling depressed.,Negative,feeling depressed,Depression,4
+The birthday alone has me feeling very low.,Negative,feeling very low,Depression,2
+My portfolio feedback has me feeling depressed.,Negative,feeling depressed,Depression,4
+The missed deadline has me feeling very low.,Negative,feeling very low,Depression,2
+This weight gain has me feeling depressed.,Negative,feeling depressed,Depression,4
+The unfinished work has me feeling very low.,Negative,feeling very low,Depression,2
+My driving test failure has me feeling depressed.,Negative,feeling depressed,Depression,4
+The team loss has me feeling very low.,Negative,feeling very low,Depression,2
+These relationship issues have me feeling depressed.,Negative,feeling depressed,Depression,4
+The loan denial has me feeling very low.,Negative,feeling very low,Depression,2
+My creative block has me feeling depressed.,Negative,feeling depressed,Depression,4
+The cold winter has me feeling very low.,Negative,feeling very low,Depression,2
+This social anxiety has me feeling depressed.,Negative,feeling depressed,Depression,4
+The forgotten anniversary has me feeling very low.,Negative,feeling very low,Depression,2
+My interview rejection has me feeling depressed.,Negative,feeling depressed,Depression,4
+The missed concert has me feeling very low.,Negative,feeling very low,Depression,2
+These family arguments have me feeling depressed.,Negative,feeling depressed,Depression,4
+The lost phone has me feeling very low.,Negative,feeling very low,Depression,2
+My garden dying has me feeling depressed.,Negative,feeling depressed,Depression,4
+The unanswered message has me feeling very low.,Negative,feeling very low,Depression,2
+This long commute has me feeling depressed.,Negative,feeling depressed,Depression,4
+The power outage has me feeling very low.,Negative,feeling very low,Depression,2
+My canceled vacation has me feeling depressed.,Negative,feeling depressed,Depression,4
+The broken promise has me feeling very low.,Negative,feeling very low,Depression,2
+These parking tickets have me feeling depressed.,Negative,feeling depressed,Depression,4
+The missed train has me feeling very low.,Negative,feeling very low,Depression,2
+My landlord's notice has me feeling depressed.,Negative,feeling depressed,Depression,4
+The stolen bike has me feeling very low.,Negative,feeling very low,Depression,2
+This computer crash has me feeling depressed.,Negative,feeling depressed,Depression,4
+The missed meeting has me feeling very low.,Negative,feeling very low,Depression,2
+My failed recipe has me feeling depressed.,Negative,feeling depressed,Depression,4
+The spilled coffee has me feeling very low.,Negative,feeling very low,Depression,2
+These noisy neighbors have me feeling depressed.,Negative,feeling depressed,Depression,4
+The lost wallet has me feeling very low.,Negative,feeling very low,Depression,2
+My broken phone has me feeling depressed.,Negative,feeling depressed,Depression,4
+The rainy vacation has me feeling very low.,Negative,feeling very low,Depression,2
+This traffic jam has me feeling depressed.,Negative,feeling depressed,Depression,4
+The missing package has me feeling very low.,Negative,feeling very low,Depression,2
+My delayed payment has me feeling depressed.,Negative,feeling depressed,Depression,4
+The closed gym has me feeling very low.,Negative,feeling very low,Depression,2
+These internet issues have me feeling depressed.,Negative,feeling depressed,Depression,4
+The broken glasses has me feeling very low.,Negative,feeling very low,Depression,2
+My laundry mishap has me feeling depressed.,Negative,feeling depressed,Depression,4
+The missed call has me feeling very low.,Negative,feeling very low,Depression,2
+This printer jam has me feeling depressed.,Negative,feeling depressed,Depression,4
+The expired food has me feeling very low.,Negative,feeling very low,Depression,2
+My dropped phone has me feeling depressed.,Negative,feeling depressed,Depression,4
+The late bus has me feeling very low.,Negative,feeling very low,Depression,2
+These paper cuts have me feeling depressed.,Negative,feeling depressed,Depression,4
+The flat tire has me feeling very low.,Negative,feeling very low,Depression,2
+My lost keys have me feeling depressed.,Negative,feeling depressed,Depression,4
+The slow internet has me feeling very low.,Negative,feeling very low,Depression,2
+This burnt dinner has me feeling depressed.,Negative,feeling depressed,Depression,4
+The long wait has me feeling very low.,Negative,feeling very low,Depression,2
+My bad haircut has me feeling depressed.,Negative,feeling depressed,Depression,4
+The wrong order has me feeling very low.,Negative,feeling very low,Depression,2
+These billing errors have me feeling depressed.,Negative,feeling depressed,Depression,4
+The stained shirt has me feeling very low.,Negative,feeling very low,Depression,2
+My broken watch has me feeling depressed.,Negative,feeling depressed,Depression,4
+The missed alarm has me feeling very low.,Negative,feeling very low,Depression,2
+This cold coffee has me feeling depressed.,Negative,feeling depressed,Depression,4
+The locked door has me feeling very low.,Negative,feeling very low,Depression,2
+My dead battery has me feeling depressed.,Negative,feeling depressed,Depression,4
+The lost document has me feeling very low.,Negative,feeling very low,Depression,2
+These endless meetings have me feeling depressed.,Negative,feeling depressed,Depression,4
+The dropped ice cream has me feeling very low.,Negative,feeling very low,Depression,2
+My missed appointment has me feeling depressed.,Negative,feeling depressed,Depression,4
+The wrong turn has me feeling very low.,Negative,feeling very low,Depression,2
+This slow computer has me feeling depressed.,Negative,feeling depressed,Depression,4
+The forgotten password has me feeling very low.,Negative,feeling very low,Depression,2
+My lost bookmark has me feeling depressed.,Negative,feeling depressed,Depression,4
+The spam emails have me feeling very low.,Negative,feeling very low,Depression,2
+These software updates have me feeling depressed.,Negative,feeling depressed,Depression,4
+The lost charger has me feeling very low.,Negative,feeling very low,Depression,2
+My scattered papers have me feeling depressed.,Negative,feeling depressed,Depression,4
+The broken pencil has me feeling very low.,Negative,feeling very low,Depression,2
+This loud alarm has me feeling depressed.,Negative,feeling depressed,Depression,4
+The messy desk has me feeling very low.,Negative,feeling very low,Depression,2
+My wrinkled shirt has me feeling depressed.,Negative,feeling depressed,Depression,4
+I'm feeling little anxious about the routine checkup.,Negative,feeling little anxious,Anxiety,1
+The upcoming presentation has me feeling very anxious.,Negative,feeling very anxious,Anxiety,2
+I'm constantly worried about my retirement savings.,Negative,constantly worried,Anxiety,2
+Meeting new people makes me feeling little anxious.,Negative,feeling little anxious,Anxiety,1
+I'm feeling very anxious about the job interview.,Negative,feeling very anxious,Anxiety,2
+I'm constantly worried about my children's safety.,Negative,constantly worried,Anxiety,2
+The dental visit has me feeling little anxious.,Negative,feeling little anxious,Anxiety,1
+The exam results have me feeling very anxious.,Negative,feeling very anxious,Anxiety,2
+I'm constantly worried about climate change.,Negative,constantly worried,Anxiety,2
+Trying new food makes me feeling little anxious.,Negative,feeling little anxious,Anxiety,1
+The mortgage payment has me feeling very anxious.,Negative,feeling very anxious,Anxiety,2
+I'm constantly worried about my health issues.,Negative,constantly worried,Anxiety,2
+Public speaking makes me feeling little anxious.,Negative,feeling little anxious,Anxiety,1
+The deadline has me feeling very anxious today.,Negative,feeling very anxious,Anxiety,2
+I'm constantly worried about my parent's health.,Negative,constantly worried,Anxiety,2
+First dates make me feeling little anxious.,Negative,feeling little anxious,Anxiety,1
+This performance review has me feeling very anxious.,Negative,feeling very anxious,Anxiety,2
+I'm constantly worried about my car breaking down.,Negative,constantly worried,Anxiety,2
+Flying makes me feeling little anxious sometimes.,Negative,feeling little anxious,Anxiety,1
+The medical test has me feeling very anxious.,Negative,feeling very anxious,Anxiety,2
+I'm constantly worried about losing my job.,Negative,constantly worried,Anxiety,2
+Shopping alone makes me feeling little anxious.,Negative,feeling little anxious,Anxiety,1
+The family gathering has me feeling very anxious.,Negative,feeling very anxious,Anxiety,2
+I'm constantly worried about paying bills.,Negative,constantly worried,Anxiety,2
+Driving in snow makes me feeling little anxious.,Negative,feeling little anxious,Anxiety,1
+The visa interview has me feeling very anxious.,Negative,feeling very anxious,Anxiety,2
+I'm constantly worried about my pet's health.,Negative,constantly worried,Anxiety,2
+Taking photos makes me feeling little anxious.,Negative,feeling little anxious,Anxiety,1
+The house inspection has me feeling very anxious.,Negative,feeling very anxious,Anxiety,2
+I'm constantly worried about market crashes.,Negative,constantly worried,Anxiety,2
+Group projects make me feeling little anxious.,Negative,feeling little anxious,Anxiety,1
+The blind date has me feeling very anxious.,Negative,feeling very anxious,Anxiety,2
+I'm constantly worried about missing deadlines.,Negative,constantly worried,Anxiety,2
+Phone calls make me feeling little anxious.,Negative,feeling little anxious,Anxiety,1
+The job change has me feeling very anxious.,Negative,feeling very anxious,Anxiety,2
+I'm constantly worried about student loans.,Negative,constantly worried,Anxiety,2
+Social events make me feeling little anxious.,Negative,feeling little anxious,Anxiety,1
+The court date has me feeling very anxious.,Negative,feeling very anxious,Anxiety,2
+I'm constantly worried about cyber security.,Negative,constantly worried,Anxiety,2
+Team meetings make me feeling little anxious.,Negative,feeling little anxious,Anxiety,1
+The contract signing has me feeling very anxious.,Negative,feeling very anxious,Anxiety,2
+I'm constantly worried about global conflicts.,Negative,constantly worried,Anxiety,2
+Elevators make me feeling little anxious.,Negative,feeling little anxious,Anxiety,1
+The surgery date has me feeling very anxious.,Negative,feeling very anxious,Anxiety,2
+I'm constantly worried about identity theft.,Negative,constantly worried,Anxiety,2
+Large crowds make me feeling little anxious.,Negative,feeling little anxious,Anxiety,1
+The tax audit has me feeling very anxious.,Negative,feeling very anxious,Anxiety,2
+I'm constantly worried about data privacy.,Negative,constantly worried,Anxiety,2
+Small talk makes me feeling little anxious.,Negative,feeling little anxious,Anxiety,1
+The feedback session has me feeling very anxious.,Negative,feeling very anxious,Anxiety,2
+I'm constantly worried about natural disasters.,Negative,constantly worried,Anxiety,2
+Heights make me feeling little anxious.,Negative,feeling little anxious,Anxiety,1
+The wedding speech has me feeling very anxious.,Negative,feeling very anxious,Anxiety,2
+I'm constantly worried about food safety.,Negative,constantly worried,Anxiety,2
+Networking makes me feeling little anxious.,Negative,feeling little anxious,Anxiety,1
+The lease renewal has me feeling very anxious.,Negative,feeling very anxious,Anxiety,2
+I'm constantly worried about air pollution.,Negative,constantly worried,Anxiety,2
+Video calls make me feeling little anxious.,Negative,feeling little anxious,Anxiety,1
+The driving test has me feeling very anxious.,Negative,feeling very anxious,Anxiety,2
+I'm constantly worried about water quality.,Negative,constantly worried,Anxiety,2
+Darkness makes me feeling little anxious.,Negative,feeling little anxious,Anxiety,1
+The health check has me feeling very anxious.,Negative,feeling very anxious,Anxiety,2
+I'm constantly worried about online scams.,Negative,constantly worried,Anxiety,2
+Tight spaces make me feeling little anxious.,Negative,feeling little anxious,Anxiety,1
+The loan application has me feeling very anxious.,Negative,feeling very anxious,Anxiety,2
+I'm constantly worried about future plans.,Negative,constantly worried,Anxiety,2
+Parties make me feeling little anxious.,Negative,feeling little anxious,Anxiety,1
+The performance test has me feeling very anxious.,Negative,feeling very anxious,Anxiety,2
+I'm constantly worried about relationship issues.,Negative,constantly worried,Anxiety,2
+Thunderstorms make me feeling little anxious.,Negative,feeling little anxious,Anxiety,1
+The immigration process has me feeling very anxious.,Negative,feeling very anxious,Anxiety,2
+I'm constantly worried about housing prices.,Negative,constantly worried,Anxiety,2
+Interviews make me feeling little anxious.,Negative,feeling little anxious,Anxiety,1
+The custody hearing has me feeling very anxious.,Negative,feeling very anxious,Anxiety,2
+I'm constantly worried about job security.,Negative,constantly worried,Anxiety,2
+Hospitals make me feeling little anxious.,Negative,feeling little anxious,Anxiety,1
+The visa renewal has me feeling very anxious.,Negative,feeling very anxious,Anxiety,2
+I'm constantly worried about retirement plans.,Negative,constantly worried,Anxiety,2
+Dentists make me feeling little anxious.,Negative,feeling little anxious,Anxiety,1
+The board meeting has me feeling very anxious.,Negative,feeling very anxious,Anxiety,2
+I'm constantly worried about education costs.,Negative,constantly worried,Anxiety,2
+Travel makes me feeling little anxious.,Negative,feeling little anxious,Anxiety,1
+The home purchase has me feeling very anxious.,Negative,feeling very anxious,Anxiety,2
+I'm constantly worried about food prices.,Negative,constantly worried,Anxiety,2
+Presentations make me feeling little anxious.,Negative,feeling little anxious,Anxiety,1
+The final exam has me feeling very anxious.,Negative,feeling very anxious,Anxiety,2
+I'm constantly worried about cyber bullying.,Negative,constantly worried,Anxiety,2
+Airports make me feeling little anxious.,Negative,feeling little anxious,Anxiety,1
+The business pitch has me feeling very anxious.,Negative,feeling very anxious,Anxiety,2
+I'm constantly worried about internet security.,Negative,constantly worried,Anxiety,2
+Meetings make me feeling little anxious.,Negative,feeling little anxious,Anxiety,1
+The evaluation has me feeling very anxious.,Negative,feeling very anxious,Anxiety,2
+I'm constantly worried about career growth.,Negative,constantly worried,Anxiety,2
+Changes make me feeling little anxious.,Negative,feeling little anxious,Anxiety,1
+The interview result has me feeling very anxious.,Negative,feeling very anxious,Anxiety,2
+I'm constantly worried about family health.,Negative,constantly worried,Anxiety,2
+Crowds make me feeling little anxious.,Negative,feeling little anxious,Anxiety,1
+The project deadline has me feeling very anxious.,Negative,feeling very anxious,Anxiety,2
+I'm constantly worried about financial future.,Negative,constantly worried,Anxiety,2
+I'm feeling little better after taking the medicine.,Positive,feeling little better,Positive Outlook,3
+The sunrise today has me feeling very happy.,Positive,feeling very happy,Positive Outlook,4
+I'm feeling hopeful about the job interview.,Positive,feeling hopeful,Positive Outlook,3
+The therapy sessions have me feeling much better.,Positive,feeling much better,Positive Outlook,3
+Starting exercise has me feeling little better.,Positive,feeling little better,Positive Outlook,3
+My promotion has me feeling very happy.,Positive,feeling very happy,Positive Outlook,4
+I'm feeling hopeful about my recovery process.,Positive,feeling hopeful,Positive Outlook,3
+The new treatment has me feeling much better.,Positive,feeling much better,Positive Outlook,3
+The rest made me feeling little better today.,Positive,feeling little better,Positive Outlook,3
+This vacation has me feeling very happy.,Positive,feeling very happy,Positive Outlook,4
+I'm feeling hopeful about the upcoming changes.,Positive,feeling hopeful,Positive Outlook,3
+The support group has me feeling much better.,Positive,feeling much better,Positive Outlook,3
+The tea made me feeling little better.,Positive,feeling little better,Positive Outlook,3
+My engagement has me feeling very happy.,Positive,feeling very happy,Positive Outlook,4
+I'm feeling hopeful about the test results.,Positive,feeling hopeful,Positive Outlook,3
+The medication has me feeling much better.,Positive,feeling much better,Positive Outlook,3
+This soup has me feeling little better.,Positive,feeling little better,Positive Outlook,3
+The wedding news has me feeling very happy.,Positive,feeling very happy,Positive Outlook,4
+I'm feeling hopeful about my future now.,Positive,feeling hopeful,Positive Outlook,3
+My recovery has me feeling much better.,Positive,feeling much better,Positive Outlook,3
+The nap made me feeling little better.,Positive,feeling little better,Positive Outlook,3
+This achievement has me feeling very happy.,Positive,feeling very happy,Positive Outlook,4
+I'm feeling hopeful about the interview results.,Positive,feeling hopeful,Positive Outlook,3
+The spring weather has me feeling much better.,Positive,feeling much better,Positive Outlook,3
+Fresh air has me feeling little better.,Positive,feeling little better,Positive Outlook,3
+My graduation has me feeling very happy.,Positive,feeling very happy,Positive Outlook,4
+I'm feeling hopeful about the new project.,Positive,feeling hopeful,Positive Outlook,3
+These changes have me feeling much better.,Positive,feeling much better,Positive Outlook,3
+The walk made me feeling little better.,Positive,feeling little better,Positive Outlook,3
+This reunion has me feeling very happy.,Positive,feeling very happy,Positive Outlook,4
+I'm feeling hopeful about my relationship.,Positive,feeling hopeful,Positive Outlook,3
+The counseling has me feeling much better.,Positive,feeling much better,Positive Outlook,3
+Stretching has me feeling little better.,Positive,feeling little better,Positive Outlook,3
+My new home has me feeling very happy.,Positive,feeling very happy,Positive Outlook,4
+I'm feeling hopeful about this opportunity.,Positive,feeling hopeful,Positive Outlook,3
+The weekend has me feeling much better.,Positive,feeling much better,Positive Outlook,3
+This massage has me feeling little better.,Positive,feeling little better,Positive Outlook,3
+The baby news has me feeling very happy.,Positive,feeling very happy,Positive Outlook,4
+I'm feeling hopeful about the treatment plan.,Positive,feeling hopeful,Positive Outlook,3
+These friends have me feeling much better.,Positive,feeling much better,Positive Outlook,3
+Meditation has me feeling little better.,Positive,feeling little better,Positive Outlook,3
+This success has me feeling very happy.,Positive,feeling very happy,Positive Outlook,4
+I'm feeling hopeful about tomorrow now.,Positive,feeling hopeful,Positive Outlook,3
+The sunshine has me feeling much better.,Positive,feeling much better,Positive Outlook,3
+Hot shower has me feeling little better.,Positive,feeling little better,Positive Outlook,3
+My birthday has me feeling very happy.,Positive,feeling very happy,Positive Outlook,4
+I'm feeling hopeful about this application.,Positive,feeling hopeful,Positive Outlook,3
+The vacation has me feeling much better.,Positive,feeling much better,Positive Outlook,3
+Reading made me feeling little better.,Positive,feeling little better,Positive Outlook,3
+This concert has me feeling very happy.,Positive,feeling very happy,Positive Outlook,4
+I'm feeling hopeful about my career path.,Positive,feeling hopeful,Positive Outlook,3
+The yoga has me feeling much better.,Positive,feeling much better,Positive Outlook,3
+Music has me feeling little better.,Positive,feeling little better,Positive Outlook,3
+This party has me feeling very happy.,Positive,feeling very happy,Positive Outlook,4
+I'm feeling hopeful about my studies.,Positive,feeling hopeful,Positive Outlook,3
+The break has me feeling much better.,Positive,feeling much better,Positive Outlook,3
+Drawing has me feeling little better.,Positive,feeling little better,Positive Outlook,3
+These results have me feeling very happy.,Positive,feeling very happy,Positive Outlook,4
+I'm feeling hopeful about my savings.,Positive,feeling hopeful,Positive Outlook,3
+The holiday has me feeling much better.,Positive,feeling much better,Positive Outlook,3
+Gardening has me feeling little better.,Positive,feeling little better,Positive Outlook,3
+This news has me feeling very happy.,Positive,feeling very happy,Positive Outlook,4
+I'm feeling hopeful about the solution.,Positive,feeling hopeful,Positive Outlook,3
+The progress has me feeling much better.,Positive,feeling much better,Positive Outlook,3
+Painting has me feeling little better.,Positive,feeling little better,Positive Outlook,3
+This friendship has me feeling very happy.,Positive,feeling very happy,Positive Outlook,4
+I'm feeling hopeful about my health now.,Positive,feeling hopeful,Positive Outlook,3
+The support has me feeling much better.,Positive,feeling much better,Positive Outlook,3
+Writing has me feeling little better.,Positive,feeling little better,Positive Outlook,3
+This gift has me feeling very happy.,Positive,feeling very happy,Positive Outlook,4
+I'm feeling hopeful about this meeting.,Positive,feeling hopeful,Positive Outlook,3
+The exercise has me feeling much better.,Positive,feeling much better,Positive Outlook,3
+Dancing has me feeling little better.,Positive,feeling little better,Positive Outlook,3
+This grade has me feeling very happy.,Positive,feeling very happy,Positive Outlook,4
+I'm feeling hopeful about my goals.,Positive,feeling hopeful,Positive Outlook,3
+The feedback has me feeling much better.,Positive,feeling much better,Positive Outlook,3
+Cooking has me feeling little better.,Positive,feeling little better,Positive Outlook,3
+This visit has me feeling very happy.,Positive,feeling very happy,Positive Outlook,4
+I'm feeling hopeful about my skills.,Positive,feeling hopeful,Positive Outlook,3
+The rest has me feeling much better.,Positive,feeling much better,Positive Outlook,3
+Running has me feeling little better.,Positive,feeling little better,Positive Outlook,3
+This award has me feeling very happy.,Positive,feeling very happy,Positive Outlook,4
+I'm feeling hopeful about my dreams.,Positive,feeling hopeful,Positive Outlook,3
+The call has me feeling much better.,Positive,feeling much better,Positive Outlook,3
+Swimming has me feeling little better.,Positive,feeling little better,Positive Outlook,3
+This bonus has me feeling very happy.,Positive,feeling very happy,Positive Outlook,4
+I'm feeling hopeful about this change.,Positive,feeling hopeful,Positive Outlook,3
+The talk has me feeling much better.,Positive,feeling much better,Positive Outlook,3
+Nature has me feeling little better.,Positive,feeling little better,Positive Outlook,3
+This success has me feeling very happy.,Positive,feeling very happy,Positive Outlook,4
+I'm feeling hopeful about next year.,Positive,feeling hopeful,Positive Outlook,3
+The hug has me feeling much better.,Positive,feeling much better,Positive Outlook,3
+Art has me feeling little better.,Positive,feeling little better,Positive Outlook,3
+This win has me feeling very happy.,Positive,feeling very happy,Positive Outlook,4
+I'm feeling hopeful about this chance.,Positive,feeling hopeful,Positive Outlook,3
+The smile has me feeling much better.,Positive,feeling much better,Positive Outlook,3
+Games have me feeling little better.,Positive,feeling little better,Positive Outlook,3
+This raise has me feeling very happy.,Positive,feeling very happy,Positive Outlook,4
+I'm feeling hopeful about my project.,Positive,feeling hopeful,Positive Outlook,3
+The song has me feeling much better.,Positive,feeling much better,Positive Outlook,3
+Pets have me feeling little better.,Positive,feeling little better,Positive Outlook,3
+This love has me feeling very happy.,Positive,feeling very happy,Positive Outlook,4
+I'm feeling hopeful about this day.,Positive,feeling hopeful,Positive Outlook,3
+The sun has me feeling much better.,Positive,feeling much better,Positive Outlook,3
+Sleep has me feeling little better.,Positive,feeling little better,Positive Outlook,3
+This life has me feeling very happy.,Positive,feeling very happy,Positive Outlook,4
+I'm feeling hopeful about us now.,Positive,feeling hopeful,Positive Outlook,3
+The help has me feeling much better.,Positive,feeling much better,Positive Outlook,3
+Food has me feeling little better.,Positive,feeling little better,Positive Outlook,3
+This joy has me feeling very happy.,Positive,feeling very happy,Positive Outlook,4
+I'm feeling hopeful about healing.,Positive,feeling hopeful,Positive Outlook,3
+The care has me feeling much better.,Positive,feeling much better,Positive Outlook,3
+Rest has me feeling little better.,Positive,feeling little better,Positive Outlook,3
+This day has me feeling very happy.,Positive,feeling very happy,Positive Outlook,4
+I'm feeling hopeful about work now.,Positive,feeling hopeful,Positive Outlook,3
+The peace has me feeling much better.,Positive,feeling much better,Positive Outlook,3
+Time has me feeling little better.,Positive,feeling little better,Positive Outlook,3
+This hope has me feeling very happy.,Positive,feeling very happy,Positive Outlook,4
+I'm feeling hopeful about my path.,Positive,feeling hopeful,Positive Outlook,3
+The calm has me feeling much better.,Positive,feeling much better,Positive Outlook,3
+Light has me feeling little better.,Positive,feeling little better,Positive Outlook,3
+This bliss has me feeling very happy.,Positive,feeling very happy,Positive Outlook,4
+I'm feeling hopeful about growth now.,Positive,feeling hopeful,Positive Outlook,3
+The joy has me feeling much better.,Positive,feeling much better,Positive Outlook,3
+I'm feeling a little stressed about the upcoming dental appointment.,Negative,little stressed,Stress,2
+With the deadline approaching I'm very stressed about completing everything.,Negative,very stressed,Stress,4
+The wedding planning has me extremely stressed and overwhelmed.,Negative,extremely stressed,Stress,4
+I'm a little stressed about meeting my partner's family tomorrow.,Negative,little stressed,Stress,2
+The job interview next week has me very stressed and anxious.,Negative,very stressed,Stress,4
+With three projects due I'm extremely stressed about managing time.,Negative,extremely stressed,Stress,4
+Planning the vacation makes me a little stressed about the budget.,Negative,little stressed,Stress,2
+The house move has me very stressed about packing everything.,Negative,very stressed,Stress,4
+My financial situation has me extremely stressed these days.,Negative,extremely stressed,Stress,4
+Starting the new job has me a little stressed but excited.,Negative,little stressed,Stress,2
+The upcoming presentation has me very stressed about speaking.,Negative,very stressed,Stress,4
+The medical test results have me extremely stressed and worried.,Negative,extremely stressed,Stress,4
+I'm a little stressed about choosing the right college major.,Negative,little stressed,Stress,2
+The family reunion has me very stressed about organizing everything.,Negative,very stressed,Stress,4
+My workload is making me extremely stressed and exhausted.,Negative,extremely stressed,Stress,4
+The minor car repairs have me a little stressed about costs.,Negative,little stressed,Stress,2
+The project deadline has me very stressed about completion.,Negative,very stressed,Stress,4
+My relationship issues have me extremely stressed lately.,Negative,extremely stressed,Stress,4
+I'm a little stressed about the upcoming driving test.,Negative,little stressed,Stress,2
+The home renovation has me very stressed about decisions.,Negative,very stressed,Stress,4
+The health concerns have me extremely stressed and anxious.,Negative,extremely stressed,Stress,4
+Planning the birthday party has me a little stressed.,Negative,little stressed,Stress,2
+The team conflicts at work have me very stressed.,Negative,very stressed,Stress,4
+The mortgage application has me extremely stressed.,Negative,extremely stressed,Stress,4
+I'm a little stressed about the weather forecast.,Negative,little stressed,Stress,2
+The client meeting has me very stressed about preparation.,Negative,very stressed,Stress,4
+My visa application has me extremely stressed about timing.,Negative,extremely stressed,Stress,4
+The minor exam has me a little stressed but manageable.,Negative,little stressed,Stress,2
+The family issues have me very stressed about holidays.,Negative,very stressed,Stress,4
+The lawsuit has me extremely stressed about the outcome.,Negative,extremely stressed,Stress,4
+I'm a little stressed about picking an outfit for the date.,Negative,little stressed,Stress,2
+The performance review has me very stressed this week.,Negative,very stressed,Stress,4
+The debt situation has me extremely stressed constantly.,Negative,extremely stressed,Stress,4
+The small gathering has me a little stressed about hosting.,Negative,little stressed,Stress,2
+The upcoming audit has me very stressed about documentation.,Negative,very stressed,Stress,4
+The custody battle has me extremely stressed and drained.,Negative,extremely stressed,Stress,4
+I'm a little stressed about the minor surgery next month.,Negative,little stressed,Stress,2
+The networking event has me very stressed about socializing.,Negative,very stressed,Stress,4
+The immigration process has me extremely stressed daily.,Negative,extremely stressed,Stress,4
+The doctor appointment has me a little stressed today.,Negative,little stressed,Stress,2
+The business proposal has me very stressed about details.,Negative,very stressed,Stress,4
+The court hearing has me extremely stressed and nervous.,Negative,extremely stressed,Stress,4
+I'm a little stressed about the phone interview later.,Negative,little stressed,Stress,2
+The code deployment has me very stressed about bugs.,Negative,very stressed,Stress,4
+The tax audit has me extremely stressed about paperwork.,Negative,extremely stressed,Stress,4
+The small presentation has me a little stressed but okay.,Negative,little stressed,Stress,2
+The system upgrade has me very stressed about downtime.,Negative,very stressed,Stress,4
+The divorce proceedings have me extremely stressed now.,Negative,extremely stressed,Stress,4
+I'm a little stressed about the weekend plans changing.,Negative,little stressed,Stress,2
+The project handover has me very stressed about training.,Negative,very stressed,Stress,4
+The bankruptcy filing has me extremely stressed daily.,Negative,extremely stressed,Stress,4
+The routine checkup has me a little stressed but fine.,Negative,little stressed,Stress,2
+The team leadership has me very stressed about managing.,Negative,very stressed,Stress,4
+The foreclosure threat has me extremely stressed always.,Negative,extremely stressed,Stress,4
+I'm a little stressed about the minor home repairs.,Negative,little stressed,Stress,2
+The client feedback has me very stressed about changes.,Negative,very stressed,Stress,4
+The legal issues have me extremely stressed constantly.,Negative,extremely stressed,Stress,4
+The dentist visit has me a little stressed this morning.,Negative,little stressed,Stress,2
+The budget meeting has me very stressed about numbers.,Negative,very stressed,Stress,4
+The hospital bills have me extremely stressed about money.,Negative,extremely stressed,Stress,4
+I'm a little stressed about the upcoming blind date.,Negative,little stressed,Stress,2
+The product launch has me very stressed about success.,Negative,very stressed,Stress,4
+The eviction notice has me extremely stressed and scared.,Negative,extremely stressed,Stress,4
+The mild cold has me a little stressed about recovery.,Negative,little stressed,Stress,2
+The website redesign has me very stressed about deadlines.,Negative,very stressed,Stress,4
+The custody issues have me extremely stressed each day.,Negative,extremely stressed,Stress,4
+I'm a little stressed about the minor schedule changes.,Negative,little stressed,Stress,2
+The market presentation has me very stressed this week.,Negative,very stressed,Stress,4
+The pending lawsuit has me extremely stressed constantly.,Negative,extremely stressed,Stress,4
+The routine maintenance has me a little stressed today.,Negative,little stressed,Stress,2
+The sales targets have me very stressed about quotas.,Negative,very stressed,Stress,4
+The foreclosure process has me extremely stressed now.,Negative,extremely stressed,Stress,4
+I'm a little stressed about the upcoming coffee date.,Negative,little stressed,Stress,2
+The code review has me very stressed about feedback.,Negative,very stressed,Stress,4
+The bankruptcy process has me extremely stressed daily.,Negative,extremely stressed,Stress,4
+The small talk has me a little stressed but manageable.,Negative,little stressed,Stress,2
+The project timeline has me very stressed about delays.,Negative,very stressed,Stress,4
+The court date has me extremely stressed and worried.,Negative,extremely stressed,Stress,4
+I'm a little stressed about the weekend weather forecast.,Negative,little stressed,Stress,2
+The team meeting has me very stressed about reporting.,Negative,very stressed,Stress,4
+The health diagnosis has me extremely stressed lately.,Negative,extremely stressed,Stress,4
+The minor quiz has me a little stressed but prepared.,Negative,little stressed,Stress,2
+The client presentation has me very stressed today.,Negative,very stressed,Stress,4
+The insurance claim has me extremely stressed now.,Negative,extremely stressed,Stress,4
+I'm a little stressed about the upcoming movie date.,Negative,little stressed,Stress,2
+The system migration has me very stressed about data.,Negative,very stressed,Stress,4
+The medical bills have me extremely stressed about funds.,Negative,extremely stressed,Stress,4
+The routine visit has me a little stressed this afternoon.,Negative,little stressed,Stress,2
+The team evaluation has me very stressed about reviews.,Negative,very stressed,Stress,4
+The legal battle has me extremely stressed each day.,Negative,extremely stressed,Stress,4
+I'm a little stressed about the minor technical issues.,Negative,little stressed,Stress,2
+The project deadline has me very stressed about time.,Negative,very stressed,Stress,4
+The family crisis has me extremely stressed constantly.,Negative,extremely stressed,Stress,4
+The small errand has me a little stressed but doable.,Negative,little stressed,Stress,2
+The market analysis has me very stressed about results.,Negative,very stressed,Stress,4
+The debt collection has me extremely stressed daily.,Negative,extremely stressed,Stress,4
+The casual meeting has me a little stressed today.,Negative,little stressed,Stress,2
+The performance metrics have me very stressed now.,Negative,very stressed,Stress,4
+The ongoing investigation has me extremely stressed.,Negative,extremely stressed,Stress,4
+I'm a little stressed about the upcoming group lunch.,Negative,little stressed,Stress,2
+The security audit has me very stressed about compliance.,Negative,very stressed,Stress,4
+The criminal charges have me extremely stressed always.,Negative,extremely stressed,Stress,4
+I'm a little stressed about the upcoming team outing.,Negative,little stressed,Stress,2
+The project review has me very stressed about feedback.,Negative,very stressed,Stress,4
+The legal dispute has me extremely stressed and anxious.,Negative,extremely stressed,Stress,4
+I'm a little stressed about the upcoming team dinner.,Negative,little stressed,Stress,2
+The project status has me very stressed about updates.,Negative,very stressed,Stress,4
+The legal issues have me extremely stressed constantly.,Negative,extremely stressed,Stress,4
+With my busy schedule I'm not eating properly during workdays.,Negative,not eating properly,Eating Disorder,1
+Due to severe anxiety I'm unable to eat anything substantial.,Negative,unable to eat,Eating Disorder,1
+I've been not eating properly since starting my new job.,Negative,not eating properly,Eating Disorder,1
+The stress of exams means I'm unable to eat regular meals.,Negative,unable to eat,Eating Disorder,1
+Working night shifts has me not eating properly anymore.,Negative,not eating properly,Eating Disorder,1
+My depression makes me unable to eat most days.,Negative,unable to eat,Eating Disorder,1
+Between classes I'm not eating properly or at regular times.,Negative,not eating properly,Eating Disorder,1
+The medication side effects leave me unable to eat without nausea.,Negative,unable to eat,Eating Disorder,1
+Living alone has resulted in me not eating properly lately.,Negative,not eating properly,Eating Disorder,1
+The grief makes me unable to eat anything substantial.,Negative,unable to eat,Eating Disorder,1
+During gaming sessions I'm not eating properly at all.,Negative,not eating properly,Eating Disorder,1
+My anxiety attacks make me unable to eat when stressed.,Negative,unable to eat,Eating Disorder,1
+Since moving out I'm not eating properly or regularly.,Negative,not eating properly,Eating Disorder,1
+The chemotherapy leaves me unable to eat most foods.,Negative,unable to eat,Eating Disorder,1
+With overtime work I'm not eating properly these days.,Negative,not eating properly,Eating Disorder,1
+My morning sickness makes me unable to eat breakfast.,Negative,unable to eat,Eating Disorder,1
+As a new parent I'm not eating properly between feedings.,Negative,not eating properly,Eating Disorder,1
+The stomach flu has me unable to eat anything solid.,Negative,unable to eat,Eating Disorder,1
+During travel I'm not eating properly or nutritiously.,Negative,not eating properly,Eating Disorder,1
+Chronic pain makes me unable to eat without discomfort.,Negative,unable to eat,Eating Disorder,1
+On my budget I'm not eating properly or balanced meals.,Negative,not eating properly,Eating Disorder,1
+The panic attacks leave me unable to eat when anxious.,Negative,unable to eat,Eating Disorder,1
+Without meal prep I'm not eating properly all week.,Negative,not eating properly,Eating Disorder,1
+Post-surgery I'm unable to eat regular food yet.,Negative,unable to eat,Eating Disorder,1
+During deadlines I'm not eating properly at work.,Negative,not eating properly,Eating Disorder,1
+My throat infection makes me unable to eat solids.,Negative,unable to eat,Eating Disorder,1
+In this heat I'm not eating properly or regularly.,Negative,not eating properly,Eating Disorder,1
+The migraine makes me unable to eat without vomiting.,Negative,unable to eat,Eating Disorder,1
+While studying I'm not eating properly or enough.,Negative,not eating properly,Eating Disorder,1
+The dental surgery left me unable to eat solid food.,Negative,unable to eat,Eating Disorder,1
+Without a kitchen I'm not eating properly these days.,Negative,not eating properly,Eating Disorder,1
+My jaw pain makes me unable to eat normal meals.,Negative,unable to eat,Eating Disorder,1
+During exams I'm not eating properly or regularly.,Negative,not eating properly,Eating Disorder,1
+The food poisoning has me unable to eat anything.,Negative,unable to eat,Eating Disorder,1
+With my commute I'm not eating properly most days.,Negative,not eating properly,Eating Disorder,1
+The heartburn makes me unable to eat spicy foods.,Negative,unable to eat,Eating Disorder,1
+As a freelancer I'm not eating properly between jobs.,Negative,not eating properly,Eating Disorder,1
+My wisdom teeth removal has me unable to eat solids.,Negative,unable to eat,Eating Disorder,1
+Without roommates I'm not eating properly anymore.,Negative,not eating properly,Eating Disorder,1
+The gastritis makes me unable to eat large meals.,Negative,unable to eat,Eating Disorder,1
+During moving I'm not eating properly or regularly.,Negative,not eating properly,Eating Disorder,1
+My nausea makes me unable to eat in the mornings.,Negative,unable to eat,Eating Disorder,1
+With limited time I'm not eating properly at lunch.,Negative,not eating properly,Eating Disorder,1
+The ulcer leaves me unable to eat certain foods.,Negative,unable to eat,Eating Disorder,1
+During projects I'm not eating properly all day.,Negative,not eating properly,Eating Disorder,1
+My sore throat makes me unable to eat anything.,Negative,unable to eat,Eating Disorder,1
+Without planning I'm not eating properly this week.,Negative,not eating properly,Eating Disorder,1
+The vertigo makes me unable to eat when dizzy.,Negative,unable to eat,Eating Disorder,1
+As a student I'm not eating properly on campus.,Negative,not eating properly,Eating Disorder,1
+The braces make me unable to eat crunchy foods.,Negative,unable to eat,Eating Disorder,1
+During renovations I'm not eating properly at home.,Negative,not eating properly,Eating Disorder,1
+My toothache makes me unable to eat properly.,Negative,unable to eat,Eating Disorder,1
+With long shifts I'm not eating properly lately.,Negative,not eating properly,Eating Disorder,1
+The flu makes me unable to eat without nausea.,Negative,unable to eat,Eating Disorder,1
+Between meetings I'm not eating properly today.,Negative,not eating properly,Eating Disorder,1
+My strep throat makes me unable to eat solids.,Negative,unable to eat,Eating Disorder,1
+During training I'm not eating properly enough.,Negative,not eating properly,Eating Disorder,1
+The acid reflux makes me unable to eat late.,Negative,unable to eat,Eating Disorder,1
+Without structure I'm not eating properly anymore.,Negative,not eating properly,Eating Disorder,1
+My tonsillitis makes me unable to eat anything.,Negative,unable to eat,Eating Disorder,1
+While traveling I'm not eating properly at all.,Negative,not eating properly,Eating Disorder,1
+The fever makes me unable to eat full meals.,Negative,unable to eat,Eating Disorder,1
+During overtime I'm not eating properly these days.,Negative,not eating properly,Eating Disorder,1
+My gum surgery makes me unable to eat solids.,Negative,unable to eat,Eating Disorder,1
+As an intern I'm not eating properly between tasks.,Negative,not eating properly,Eating Disorder,1
+The medication makes me unable to eat early.,Negative,unable to eat,Eating Disorder,1
+Without breaks I'm not eating properly at work.,Negative,not eating properly,Eating Disorder,1
+My mouth ulcers make me unable to eat spicy food.,Negative,unable to eat,Eating Disorder,1
+During conferences I'm not eating properly or well.,Negative,not eating properly,Eating Disorder,1
+The pneumonia makes me unable to eat much.,Negative,unable to eat,Eating Disorder,1
+With deadlines I'm not eating properly this month.,Negative,not eating properly,Eating Disorder,1
+My bronchitis makes me unable to eat without coughing.,Negative,unable to eat,Eating Disorder,1
+Between clients I'm not eating properly today.,Negative,not eating properly,Eating Disorder,1
+The stomach bug makes me unable to eat anything.,Negative,unable to eat,Eating Disorder,1
+During finals I'm not eating properly or regularly.,Negative,not eating properly,Eating Disorder,1
+My throat infection makes me unable to eat solids.,Negative,unable to eat,Eating Disorder,1
+Without routine I'm not eating properly lately.,Negative,not eating properly,Eating Disorder,1
+The dental work makes me unable to eat normally.,Negative,unable to eat,Eating Disorder,1
+As a caregiver I'm not eating properly between duties.,Negative,not eating properly,Eating Disorder,1
+My nausea makes me unable to eat breakfast.,Negative,unable to eat,Eating Disorder,1
+During interviews I'm not eating properly all day.,Negative,not eating properly,Eating Disorder,1
+The stomach pain makes me unable to eat much.,Negative,unable to eat,Eating Disorder,1
+With odd hours I'm not eating properly anymore.,Negative,not eating properly,Eating Disorder,1
+My jaw surgery makes me unable to eat solids.,Negative,unable to eat,Eating Disorder,1
+Between shifts I'm not eating properly these days.,Negative,not eating properly,Eating Disorder,1
+The illness makes me unable to eat regular meals.,Negative,unable to eat,Eating Disorder,1
+During research I'm not eating properly at all.,Negative,not eating properly,Eating Disorder,1
+My anxiety makes me unable to eat when nervous.,Negative,unable to eat,Eating Disorder,1
+Without cooking skills I'm not eating properly now.,Negative,not eating properly,Eating Disorder,1
+The tooth pain makes me unable to eat anything.,Negative,unable to eat,Eating Disorder,1
+As a volunteer I'm not eating properly between tasks.,Negative,not eating properly,Eating Disorder,1
+My headache makes me unable to eat normally.,Negative,unable to eat,Eating Disorder,1
+During fieldwork I'm not eating properly or well.,Negative,not eating properly,Eating Disorder,1
+The stress makes me unable to eat properly.,Negative,unable to eat,Eating Disorder,1
+With tight budgets I'm not eating properly lately.,Negative,not eating properly,Eating Disorder,1
+My cold makes me unable to eat hot foods.,Negative,unable to eat,Eating Disorder,1
+Between projects I'm not eating properly enough.,Negative,not eating properly,Eating Disorder,1
+The motion sickness makes me unable to eat traveling.,Negative,unable to eat,Eating Disorder,1
+During workshops I'm not eating properly at all.,Negative,not eating properly,Eating Disorder,1
+My throat pain makes me unable to eat solids.,Negative,unable to eat,Eating Disorder,1
+Without meal times I'm not eating properly anymore.,Negative,not eating properly,Eating Disorder,1
+The dental procedure makes me unable to eat normally.,Negative,unable to eat,Eating Disorder,1
+As a driver I'm not eating properly between routes.,Negative,not eating properly,Eating Disorder,1
+My stomach ache makes me unable to eat today.,Negative,unable to eat,Eating Disorder,1
+During meetings I'm not eating properly or enough.,Negative,not eating properly,Eating Disorder,1
+The illness makes me unable to eat anything.,Negative,unable to eat,Eating Disorder,1
+With deadlines I'm not eating properly this week.,Negative,not eating properly,Eating Disorder,1
+My fatigue makes me unable to eat regularly.,Negative,unable to eat,Eating Disorder,1
+Between classes I'm not eating properly lately.,Negative,not eating properly,Eating Disorder,1
+The surgery makes me unable to eat solid food.,Negative,unable to eat,Eating Disorder,1
+During work I'm not eating properly or well.,Negative,not eating properly,Eating Disorder,1
+My depression makes me unable to eat much.,Negative,unable to eat,Eating Disorder,1
+Without planning I'm not eating properly these days.,Negative,not eating properly,Eating Disorder,1
+The pain makes me unable to eat anything.,Negative,unable to eat,Eating Disorder,1
+User input,polarity,extracted concern,category,1
+After reading my test results I'm worried about health implications.,Negative,worried about health,Health Anxiety,2
+Looking at my family history has me distressed over health risks.,Negative,distressed over health,Health Anxiety,4
+With these new symptoms I'm worried about health consequences.,Negative,worried about health,Health Anxiety,2
+My recent diagnosis has me distressed over health outcomes.,Negative,distressed over health,Health Anxiety,4
+After skipping checkups I'm worried about health issues.,Negative,worried about health,Health Anxiety,2
+These chest pains have me distressed over health concerns.,Negative,distressed over health,Health Anxiety,4
+Since turning forty I'm worried about health changes.,Negative,worried about health,Health Anxiety,2
+Recent medical news has me distressed over health matters.,Negative,distressed over health,Health Anxiety,4
+With my blood pressure rising I'm worried about health risks.,Negative,worried about health,Health Anxiety,2
+The upcoming surgery has me distressed over health recovery.,Negative,distressed over health,Health Anxiety,4
+After gaining weight I'm worried about health effects.,Negative,worried about health,Health Anxiety,2
+These persistent headaches have me distressed over health status.,Negative,distressed over health,Health Anxiety,4
+Since the accident I'm worried about health complications.,Negative,worried about health,Health Anxiety,2
+The genetic testing has me distressed over health predictions.,Negative,distressed over health,Health Anxiety,4
+With these lifestyle changes I'm worried about health impact.,Negative,worried about health,Health Anxiety,2
+My chronic condition has me distressed over health management.,Negative,distressed over health,Health Anxiety,4
+After the biopsy I'm worried about health outcomes.,Negative,worried about health,Health Anxiety,2
+The lab results have me distressed over health conditions.,Negative,distressed over health,Health Anxiety,4
+Since starting medication I'm worried about health side effects.,Negative,worried about health,Health Anxiety,2
+Recent dizzy spells have me distressed over health stability.,Negative,distressed over health,Health Anxiety,4
+With my irregular heartbeat I'm worried about health risks.,Negative,worried about health,Health Anxiety,2
+The ongoing fatigue has me distressed over health concerns.,Negative,distressed over health,Health Anxiety,4
+After the physical exam I'm worried about health findings.,Negative,worried about health,Health Anxiety,2
+These unexplained symptoms have me distressed over health issues.,Negative,distressed over health,Health Anxiety,4
+Since exposure notification I'm worried about health status.,Negative,worried about health,Health Anxiety,2
+The medical history has me distressed over health patterns.,Negative,distressed over health,Health Anxiety,4
+With these joint pains I'm worried about health deterioration.,Negative,worried about health,Health Anxiety,2
+My chronic migraines have me distressed over health impact.,Negative,distressed over health,Health Anxiety,4
+After the doctor's visit I'm worried about health problems.,Negative,worried about health,Health Anxiety,2
+The family diagnosis has me distressed over health inheritance.,Negative,distressed over health,Health Anxiety,4
+Since losing weight rapidly I'm worried about health causes.,Negative,worried about health,Health Anxiety,2
+These vision changes have me distressed over health decline.,Negative,distressed over health,Health Anxiety,4
+With my breathing issues I'm worried about health concerns.,Negative,worried about health,Health Anxiety,2
+The recurring pain has me distressed over health conditions.,Negative,distressed over health,Health Anxiety,4
+After the screening test I'm worried about health results.,Negative,worried about health,Health Anxiety,2
+The genetic markers have me distressed over health future.,Negative,distressed over health,Health Anxiety,4
+Since quitting exercise I'm worried about health effects.,Negative,worried about health,Health Anxiety,2
+These sleep problems have me distressed over health impact.,Negative,distressed over health,Health Anxiety,4
+With my dietary changes I'm worried about health consequences.,Negative,worried about health,Health Anxiety,2
+The medical procedures have me distressed over health outcomes.,Negative,distressed over health,Health Anxiety,4
+After environmental exposure I'm worried about health risks.,Negative,worried about health,Health Anxiety,2
+The ongoing symptoms have me distressed over health stability.,Negative,distressed over health,Health Anxiety,4
+Since the injury I'm worried about health recovery.,Negative,worried about health,Health Anxiety,2
+These blood tests have me distressed over health status.,Negative,distressed over health,Health Anxiety,4
+With my family background I'm worried about health predisposition.,Negative,worried about health,Health Anxiety,2
+The medical uncertainty has me distressed over health future.,Negative,distressed over health,Health Anxiety,4
+After postponing treatment I'm worried about health progression.,Negative,worried about health,Health Anxiety,2
+The chronic symptoms have me distressed over health management.,Negative,distressed over health,Health Anxiety,4
+Since changing medications I'm worried about health adjustments.,Negative,worried about health,Health Anxiety,2
+These digestive issues have me distressed over health concerns.,Negative,distressed over health,Health Anxiety,4
+With my aging concerns I'm worried about health decline.,Negative,worried about health,Health Anxiety,2
+The ongoing treatment has me distressed over health progress.,Negative,distressed over health,Health Anxiety,4
+After missing appointments I'm worried about health monitoring.,Negative,worried about health,Health Anxiety,2
+The medical history has me distressed over health patterns.,Negative,distressed over health,Health Anxiety,4
+Since developing allergies I'm worried about health reactions.,Negative,worried about health,Health Anxiety,2
+These skin changes have me distressed over health indicators.,Negative,distressed over health,Health Anxiety,4
+With my immune system I'm worried about health vulnerability.,Negative,worried about health,Health Anxiety,2
+The medical reports have me distressed over health findings.,Negative,distressed over health,Health Anxiety,4
+After lifestyle shifts I'm worried about health adaptations.,Negative,worried about health,Health Anxiety,2
+The ongoing weakness has me distressed over health stability.,Negative,distressed over health,Health Anxiety,4
+Since family illness I'm worried about health inheritance.,Negative,worried about health,Health Anxiety,2
+These energy levels have me distressed over health vitality.,Negative,distressed over health,Health Anxiety,3
+With my chronic pain I'm worried about health management.,Negative,worried about health,Health Anxiety,3
+The test results have me distressed over health implications.,Negative,distressed over health,Health Anxiety,3
+After surgical recovery I'm worried about health progress.,Negative,worried about health,Health Anxiety,3
+The medical concerns have me distressed over health status.,Negative,distressed over health,Health Anxiety,3
+Since environmental changes I'm worried about health effects.,Negative,worried about health,Health Anxiety,3
+These physical symptoms have me distressed over health decline.,Negative,distressed over health,Health Anxiety,3
+With my medication reactions I'm worried about health responses.,Negative,worried about health,Health Anxiety,3
+The ongoing monitoring has me distressed over health stability.,Negative,distressed over health,Health Anxiety,3
+After genetic testing I'm worried about health predictions.,Negative,worried about health,Health Anxiety,3
+The health screening has me distressed over health findings.,Negative,distressed over health,Health Anxiety,3
+Since dietary restrictions I'm worried about health nutrition.,Negative,worried about health,Health Anxiety,3
+These muscle pains have me distressed over health condition.,Negative,distressed over health,Health Anxiety,3
+With my heart rate I'm worried about health indicators.,Negative,worried about health,Health Anxiety,3
+The medical procedures have me distressed over health recovery.,Negative,distressed over health,Health Anxiety,3
+After lab work I'm worried about health diagnostics.,Negative,worried about health,Health Anxiety,3
+The chronic condition has me distressed over health future.,Negative,distressed over health,Health Anxiety,3
+Since hormone changes I'm worried about health balance.,Negative,worried about health,Health Anxiety,3
+These cognitive issues have me distressed over health decline.,Negative,distressed over health,Health Anxiety,3
+With my medical history I'm worried about health patterns.,Negative,worried about health,Health Anxiety,3
+The ongoing symptoms have me distressed over health progress.,Negative,distressed over health,Health Anxiety,3
+After medication changes I'm worried about health adjustments.,Negative,worried about health,Health Anxiety,3
+The family genetics has me distressed over health risks.,Negative,distressed over health,Health Anxiety,3
+Since physical changes I'm worried about health development.,Negative,worried about health,Health Anxiety,3
+These bodily reactions have me distressed over health responses.,Negative,distressed over health,Health Anxiety,3
+With my immune response I'm worried about health protection.,Negative,worried about health,Health Anxiety,3
+The medical testing has me distressed over health diagnosis.,Negative,distressed over health,Health Anxiety,3
+After health screening I'm worried about health results.,Negative,worried about health,Health Anxiety,3
+The chronic issues have me distressed over health management.,Negative,distressed over health,Health Anxiety,3
+Since lifestyle changes I'm worried about health impact.,Negative,worried about health,Health Anxiety,3
+These neurological symptoms have me distressed over health status.,Negative,distressed over health,Health Anxiety,3
+With my blood tests I'm worried about health indicators.,Negative,worried about health,Health Anxiety,3
+The medical evaluation has me distressed over health findings.,Negative,distressed over health,Health Anxiety,3
+After physical therapy I'm worried about health progress.,Negative,worried about health,Health Anxiety,3
+The ongoing treatment has me distressed over health outcomes.,Negative,distressed over health,Health Anxiety,3
+Since medical diagnosis I'm worried about health future.,Negative,worried about health,Health Anxiety,3
+These health changes have me distressed over health stability.,Negative,distressed over health,Health Anxiety,3
+With my chronic symptoms I'm worried about health management.,Negative,worried about health,Health Anxiety,3
+The medical history has me distressed over health patterns.,Negative,distressed over health,Health Anxiety,3
+After treatment changes I'm worried about health adaptation.,Negative,worried about health,Health Anxiety,3
+The ongoing monitoring has me distressed over health status.,Negative,distressed over health,Health Anxiety,3
+Since physical decline I'm worried about health progression.,Negative,worried about health,Health Anxiety,3
+These medical results have me distressed over health implications.,Negative,distressed over health,Health Anxiety,3
+With my health history I'm worried about health patterns.,Negative,worried about health,Health Anxiety,3
+The chronic condition has me distressed over health stability.,Negative,distressed over health,Health Anxiety,3
+After medical tests I'm worried about health findings.,Negative,worried about health,Health Anxiety,3
+The ongoing symptoms have me distressed over health concerns.,Negative,distressed over health,Health Anxiety,3
+Since treatment started I'm worried about health outcomes.,Negative,worried about health,Health Anxiety,3
+These physical changes have me distressed over health progress.,Negative,distressed over health,Health Anxiety,3
+With my test results I'm worried about health implications.,Negative,worried about health,Health Anxiety,3
+The medical evaluation has me distressed over health status.,Negative,distressed over health,Health Anxiety,3
+After health changes I'm worried about health stability.,Negative,worried about health,Health Anxiety,3
+The ongoing issues have me distressed over health management.,Negative,distressed over health,Health Anxiety,3
+Since diagnosis received I'm worried about health future.,Negative,worried about health,Health Anxiety,3
+These medical concerns have me distressed over health outcomes.,Negative,distressed over health,Health Anxiety,3
+With my symptoms showing I'm worried about health progression.,Negative,worried about health,Health Anxiety,3
+The health monitoring has me distressed over health status.,Negative,distressed over health,Health Anxiety,3
