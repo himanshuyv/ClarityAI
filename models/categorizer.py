@@ -17,7 +17,7 @@ def split_data(x, y, train_size, val_size):
     return x_train, y_train, x_val, y_val, x_test, y_test
 
 # Step 1: Load the dataset
-data = pd.read_csv("../data/new_mental_health_dataset.csv")  # Adjust the path to your dataset
+data = pd.read_csv("../data/even_new_mental.csv")  # Adjust the path to your dataset
 
 # Filter necessary columns
 data = data[['Extracted Concern', 'Category']]
@@ -45,19 +45,7 @@ def predict_category(phrase):
     return model.predict([phrase])[0]
 
 # Example test
-test_phrases = [
-    "Worried about health",
-    "Feeling very low",
-    "Extremely stressed",
-    "Not eating properly",
-    "Feeling much better",
-    "Constantly worried",
-    "Happy and excited",
-    "Feeling anxious",
-    "Can’t sleep well",
-    "Feeling hopeful",
-    "Struggling with anxiety",
-]
+test_phrases = X_test
 
 # Display predictions
 for phrase in test_phrases:
