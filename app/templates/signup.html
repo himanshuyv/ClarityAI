@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./../static/style.css" />
+    <title>Signup</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header-left">
+            <h1>Chatbot Page</h1>
+        </div>
+        <div class="header-right">
+            <span id="user-info">
+                <button onclick="window.location.href='/login'">Login</button>
+            </span>
+        </div>
+    </header>
+
+    <div class="main">
+        <div class="form-container">
+            <h2>Signup</h2>
+            <form method="POST">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required />
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required />
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required />
+                </div>
+                <button type="submit">Signup</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="./../static/script.js"></script>
+</body>
+</html>

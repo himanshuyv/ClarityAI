@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./../static/style.css" />
+    <title>Chatbot</title>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="header-left">
+            <h1>Chatbot Page</h1>
+        </div>
+        <div class="header-right">
+            <!-- if username then print username otherwise add login button using jinja-->
+            <span id="user-info">
+                {% if username %}
+                    <span>Welcome, {{ username }}</span>
+                    <button onclick="window.location.href='/logout'">Logout</button>
+                {% else %}
+                    <button onclick="window.location.href='/login'">Login</button>
+                {% endif %}
+            </span>
+
+        </div>
+    </header>
+
+    <!-- Chat Container -->
+    <div class="main">
+        <div class="chat-container">
+            <div id="chat-box" class="chat-box"></div>
+            <div class="input-container">
+                <input type="text" id="user-input" placeholder="Type a message..." autocomplete="off" />
+                <button onclick="sendMessage()">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./../static/script.js"></script>
+</body>
+</html>
