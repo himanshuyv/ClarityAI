@@ -3,30 +3,8 @@ from spacy.training.example import Example
 import random
 import pandas as pd
 
-# # Sample dataset
-# data = [
-#     ("I am constantly worried these days.", {"entities": [(5, 23, "CONCERN")]}),
-#     ("I’m trying, but I’m still constantly worried.", {"entities": [(20, 38, "CONCERN")]}),
-#     ("I am worried about health these days.", {"entities": [(5, 23, "CONCERN")]}),
-#     ("Every day I’m happy and excited.", {"entities": [(12, 27, "CONCERN")]}),
-#     ("I feel happy and excited lately.", {"entities": [(7, 22, "CONCERN")]}),
-#     ("Sometimes, I think I'm feeling very low.", {"entities": [(24, 34, "CONCERN")]}),
-#     ("My mind feels like it’s can't sleep well.", {"entities": [(22, 37, "CONCERN")]}),
-#     ("It’s a struggle, I’m constantly worried.", {"entities": [(17, 35, "CONCERN")]}),
-#     ("Lately, I’ve been feeling very anxious.", {"entities": [(18, 32, "CONCERN")]}),
-#     ("Sometimes, I think I'm feeling hopeful.", {"entities": [(24, 39, "CONCERN")]}),
-#     ("I’m trying, but I’m still extremely stressed.", {"entities": [(20, 37, "CONCERN")]}),
-#     ("I am feeling very low these days.", {"entities": [(13, 23, "CONCERN")]}),
-#     ("I am feeling hopeful, and it’s affecting me.", {"entities": [(13, 28, "CONCERN")]}),
-#     ("My mind feels like it’s worried about health.", {"entities": [(22, 40, "CONCERN")]}),
-#     ("I am constantly worried, and it’s affecting me.", {"entities": [(5, 23, "CONCERN")]}),
-#     ("Recently, I’ve noticed that I’m constantly worried.", {"entities": [(31, 49, "CONCERN")]}),
-#     ("I am feeling much better these days.", {"entities": [(5, 22, "CONCERN")]}),
-# ]
-
 # Sample data in the specified CSV format
 data = pd.read_csv("../data/mental_health_dataset.csv")
-data = data[100:200]
 
 # Convert to DataFrame
 df = pd.DataFrame(data)
@@ -73,7 +51,7 @@ training_data = prepare_training_data(data)
 optimizer = nlp.initialize()
 
 # Train the model
-n_iter = 20
+n_iter = 15
 for itn in range(n_iter):
     random.shuffle(training_data)
     losses = {}
@@ -81,10 +59,19 @@ for itn in range(n_iter):
         nlp.update(batch, drop=0.35, losses=losses)
     print(f"Losses at iteration {itn}: {losses}")
 
-# Save the trained model
-nlp.to_disk("mental_health_ner_model")
+model_output_path = "mental_health_ner_model"
+nlp.to_disk(model_output_path)
+print(f"Model saved to: {model_output_path}")
 
-# Test the model
-test_text = "I'm think I'm feeling depressed."
-doc = nlp(test_text)
+# Function to load the trained model
+def load_model(model_path):
+    """Load a trained spaCy NER model from the specified path."""
+    return spacy.load(model_path)
+
+# Example usage of the load_model function
+loaded_nlp = load_model(model_output_path)
+
+# Test the loaded model
+test_text = "I am feeling Elon Muskish today."
+doc = loaded_nlp(test_text)
 print("Entities:", [(ent.text, ent.label_) for ent in doc.ents])
