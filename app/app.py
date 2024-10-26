@@ -15,7 +15,7 @@ class User(db.Model):
     email = db.Column(db.String(50), unique=True, nullable=False)
     password = db.Column(db.String(100), nullable=False)
 
-class data(db.Model):
+class Data(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     polarity = db.Column(db.String(50), nullable=False)
     concern = db.Column(db.String(50), nullable=False)
@@ -64,11 +64,18 @@ def signup():
 def chat():
     user_input = request.json.get('message')
     polarity = "Positive"
-    concern = "concern"
-    category = "category"
-    intensity = "intensity"
-    bot_response = f"polarity = {polarity}, concern = {concern}, category = {category}, intensity = {intensity}"
-    return jsonify(response=bot_response)
+    concern = "Concern"
+    category = "Category"
+    intensity = 6
+
+    bot_response = f"Polarity = {polarity}, Concern = {concern}, Category = {category}, Intensity = {intensity}"
+    # new_data = Data(polarity=polarity, concern=concern, category=category, intensity=intensity)
+    # db.session.add(new_data)
+    # db.session.commit()
+
+    polarity_value = 1 if polarity == "Positive" else -1 if polarity == "Negative" else 0
+    latest_data = {'polarity': polarity_value, 'concern': concern, 'category': category, 'intensity': intensity}
+    return jsonify(response=bot_response, latest_data=latest_data)
 
 if __name__ == '__main__':
     with app.app_context():
