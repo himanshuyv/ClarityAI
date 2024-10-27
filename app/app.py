@@ -66,17 +66,52 @@ def signup():
 
 @app.route('/chat', methods=['POST'])
 def chat():
+    
     user_input = request.json.get('message')
     polarity,concern,category,intensity = model_inference(user_input)
     polarity = polarity[0]
+    trend_shift_string = ""
+    try:
+        # fetch the last data from the database
+        last_data = Data.query.order_by(Data.id.desc()).first()
+        last_polarity = last_data.polarity
+        last_category = last_data.category
+        lasta_intensity = last_data.intensity
 
-    bot_response = f"Polarity = {polarity}, Concern = {concern}, Category = {category}, Intensity = {intensity}"
-    # new_data = Data(polarity=polarity, concern=concern, category=category, intensity=intensity)
-    # db.session.add(new_data)
-    # db.session.commit()
+
+        if last_category != category:
+            trend_shift_string += f"Signs of sentiment shift from {last_category} to {category}. "
+        if last_polarity != polarity:
+            trend_shift_string += f"Polarity has shifted from {last_polarity} to {polarity}. "
+            if last_polarity == "Positive" and polarity == "Negative":
+                trend_shift_string += "Signs of decline in sentiment has been detected."
+            elif last_polarity == "Negative" and polarity == "Positive":
+                trend_shift_string += "Signs of improvement in sentiment has been detected."
+        elif  last_polarity == polarity:
+            if lasta_intensity != intensity:
+                if polarity == "Positive":
+                    if intensity > lasta_intensity:
+                        trend_shift_string += "Intensity of positive sentiment has increased showing improvement."
+                    else:
+                        trend_shift_string += "Intensity of positive sentiment has decreased showing decline."
+                elif polarity == "Negative":
+                    if intensity > lasta_intensity:
+                        trend_shift_string += "Intensity of negative sentiment has increased showing decline."
+                    else:
+                        trend_shift_string += "Intensity of negative sentiment has decreased showing improvement."
+
+    except:
+        pass
+    if trend_shift_string == "":
+        trend_shift_string = "No significant trend shift detected."
+    
+    bot_response = f"Polarity : {polarity}, Concern : {concern}, Category : {category}, Intensity : {intensity}, Timeline Shift : {trend_shift_string}"
+    new_data = Data(polarity=polarity, concern=concern, category=category, intensity=intensity)
+    db.session.add(new_data)
+    db.session.commit()
 
     polarity_value = 1 if polarity == "Positive" else -1 if polarity == "Negative" else 0
-    latest_data = {'polarity': polarity_value, 'concern': concern, 'category': category, 'intensity': intensity}
+    latest_data = {'polarity': polarity_value, 'concern': concern, 'category': category, 'intensity': intensity, 'trend shift': trend_shift_string}
     return jsonify(response=bot_response, latest_data=latest_data)
 
 if __name__ == '__main__':
