@@ -74,16 +74,26 @@ function appendMessage(text, className) {
     chatBox.scrollTop = chatBox.scrollHeight;
 }
 
+function getPolarityLabel(polarity) {
+    if (polarity>0){
+        return "Positive";
+    }else if (polarity<0){
+        return "Negative";
+    }else{
+        return "Neutral";
+    }
+}
+
 function updateTableAndChart(latestData) {
     entryCount++;
     const row = resultsTable.querySelector('tbody').insertRow(0);
     row.insertCell(0).textContent = entryCount;
-    row.insertCell(1).textContent = latestData.polarity;
+    row.insertCell(1).textContent = getPolarityLabel(latestData.polarity);
     row.insertCell(2).textContent = latestData.concern;
     row.insertCell(3).textContent = latestData.category;
     row.insertCell(4).textContent = latestData.intensity;
 
-    const polarityIntensity = latestData.polarity * latestData.var_intensity;
+    const polarityIntensity = latestData.polarity * latestData.intensity;
 
     chartLabels.push(`Entry ${entryCount}`);
     chartData.push(polarityIntensity);
@@ -101,6 +111,7 @@ function startNewChat() {
     chatBox.innerHTML = '';
     chart.data.labels = [];
     chart.data.datasets[0].data = [];
+    chartLabels = [];
     chart.update();
     entryCount = 0;
     while (resultsTable.rows.length > 1) {

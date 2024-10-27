@@ -67,11 +67,9 @@ def signup():
 @app.route('/chat', methods=['POST'])
 def chat():
     user_input = request.json.get('message')
-    # polarity = "Positive"
-    # concern = "Concern"
-    # category = "Category"
-    # intensity = 6
-    polarity,concern,category,intensity=model_inference(user_input)
+    polarity,concern,category,intensity = model_inference(user_input)
+    polarity = polarity[0]
+
     bot_response = f"Polarity = {polarity}, Concern = {concern}, Category = {category}, Intensity = {intensity}"
     # new_data = Data(polarity=polarity, concern=concern, category=category, intensity=intensity)
     # db.session.add(new_data)
