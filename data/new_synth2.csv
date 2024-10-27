@@ -49,7 +49,6 @@ These scary movies mean I have trouble sleeping when alone.,Negative,have troubl
 The seasonal changes mean I can't sleep well lately.,Negative,can't sleep well,Insomnia,2
 Depression makes me unable to sleep at regular hours.,Negative,unable to sleep,Insomnia,1
 My new work schedule means I have trouble sleeping normally.,Negative,have trouble sleeping,Insomnia,4
-User Input,Polarity,Extracted Concern,Category,1
 I've been tossing and turning all night because I can't sleep well.,Negative,can't sleep well,Insomnia,2
 Work stress is making me unable to sleep properly.,Negative,unable to sleep,Insomnia,1
 Since last month I have trouble sleeping and it's affecting my work.,Negative,have trouble sleeping,Insomnia,4
@@ -747,7 +746,6 @@ During work I'm not eating properly or well.,Negative,not eating properly,Eating
 My depression makes me unable to eat much.,Negative,unable to eat,Eating Disorder,1
 Without planning I'm not eating properly these days.,Negative,not eating properly,Eating Disorder,1
 The pain makes me unable to eat anything.,Negative,unable to eat,Eating Disorder,1
-User input,polarity,extracted concern,category,1
 After reading my test results I'm worried about health implications.,Negative,worried about health,Health Anxiety,2
 Looking at my family history has me distressed over health risks.,Negative,distressed over health,Health Anxiety,4
 With these new symptoms I'm worried about health consequences.,Negative,worried about health,Health Anxiety,2
@@ -866,3 +864,179 @@ Since diagnosis received I'm worried about health future.,Negative,worried about
 These medical concerns have me distressed over health outcomes.,Negative,distressed over health,Health Anxiety,3
 With my symptoms showing I'm worried about health progression.,Negative,worried about health,Health Anxiety,3
 The health monitoring has me distressed over health status.,Negative,distressed over health,Health Anxiety,3
+I am happy,Positive,happy,Positive Outlook,3
+I'm happy,Positive,happy,Positive Outlook,3
+I am experiencing happiness,Positive,happiness,Positive Outlook,3
+I'm experiencing happiness,Positive,happiness,Positive Outlook,3
+I am feeling happy,Positive,feeling happy,Positive Outlook,3
+I'm feeling happy,Positive,feeling happy,Positive Outlook,3
+I am happy today,Positive,happy,Positive Outlook,3
+I'm happy today,Positive,happy,Positive Outlook,3
+I am happy right now,Positive,happy,Positive Outlook,3
+I'm happy right now,Positive,happy,Positive Outlook,3
+I am happy with the results,Positive,happy,Positive Outlook,3
+I'm happy with the results,Positive,happy,Positive Outlook,3
+I am happy about the news,Positive,happy,Positive Outlook,3
+I'm happy about the news,Positive,happy,Positive Outlook,3
+I am happy to hear that,Positive,happy,Positive Outlook,3
+I'm happy to hear that,Positive,happy,Positive Outlook,3
+I am feeling incredibly happy,Positive,feeling happy,Positive Outlook,3
+My heart is filled with happiness,Positive,happiness,Positive Outlook,3
+Today I'm especially happy,Positive,happy,Positive Outlook,3
+I can't stop feeling happy,Positive,feeling happy,Positive Outlook,3
+Happiness flows through me today,Positive,happiness,Positive Outlook,3
+I'm genuinely happy right now,Positive,happy,Positive Outlook,3
+Pure happiness is what I feel,Positive,happiness,Positive Outlook,3
+I'm feeling happy this morning,Positive,feeling happy,Positive Outlook,3
+My day is filled with happiness,Positive,happiness,Positive Outlook,3
+Happy thoughts fill my mind,Positive,happy,Positive Outlook,3
+I'm truly feeling happy today,Positive,feeling happy,Positive Outlook,3
+Happiness surrounds me completely,Positive,happiness,Positive Outlook,3
+I'm remarkably happy right now,Positive,happy,Positive Outlook,3
+Feeling happy beyond words,Positive,feeling happy,Positive Outlook,3
+My heart brims with happiness,Positive,happiness,Positive Outlook,3
+I'm absolutely happy today,Positive,happy,Positive Outlook,3
+Just feeling really happy,Positive,feeling happy,Positive Outlook,3
+Such happiness in my heart,Positive,happiness,Positive Outlook,3
+I'm perfectly happy now,Positive,happy,Positive Outlook,3
+Feeling happy and blessed,Positive,feeling happy,Positive Outlook,3
+Happiness is my state of mind,Positive,happiness,Positive Outlook,3
+I'm consistently happy lately,Positive,happy,Positive Outlook,3
+Feeling happy and content,Positive,feeling happy,Positive Outlook,3
+My soul is full of happiness,Positive,happiness,Positive Outlook,3
+I'm simply happy today,Positive,happy,Positive Outlook,3
+Feeling happy and peaceful,Positive,feeling happy,Positive Outlook,3
+Pure happiness describes me now,Positive,happiness,Positive Outlook,3
+I'm completely happy right now,Positive,happy,Positive Outlook,3
+Feeling happy and energized,Positive,feeling happy,Positive Outlook,3
+Happiness radiates through me,Positive,happiness,Positive Outlook,3
+I'm definitely happy today,Positive,happy,Positive Outlook,3
+Feeling happy and motivated,Positive,feeling happy,Positive Outlook,3
+My life is full of happiness,Positive,happiness,Positive Outlook,3
+I'm naturally happy today,Positive,happy,Positive Outlook,3
+Feeling happy and inspired,Positive,feeling happy,Positive Outlook,3
+Happiness fills my entire being,Positive,happiness,Positive Outlook,3
+I'm undeniably happy now,Positive,happy,Positive Outlook,3
+Feeling happy and grateful,Positive,feeling happy,Positive Outlook,3
+My world is full of happiness,Positive,happiness,Positive Outlook,3
+I'm genuinely happy today,Positive,happy,Positive Outlook,3
+Feeling happy and optimistic,Positive,feeling happy,Positive Outlook,3
+Happiness overflows in my life,Positive,happiness,Positive Outlook,3
+I'm thoroughly happy now,Positive,happy,Positive Outlook,3
+Feeling happy and alive,Positive,feeling happy,Positive Outlook,3
+My days are filled with happiness,Positive,happiness,Positive Outlook,3
+I'm sincerely happy today,Positive,happy,Positive Outlook,3
+Feeling happy and lighthearted,Positive,feeling happy,Positive Outlook,3
+Happiness embraces me fully,Positive,happiness,Positive Outlook,3
+I'm authentically happy now,Positive,happy,Positive Outlook,3
+Pure happiness flows through me,Positive,happiness,Positive Outlook,3
+I am sad,Negative,sad,Anxiety,4
+I'm sad,Negative,sad,Anxiety,4
+I am feeling sad,Negative,feeling sad,Anxiety,4
+I'm feeling sad,Negative,feeling sad,Anxiety,4
+I am sad today,Negative,sad,Anxiety,4
+I'm sad today,Negative,sad,Anxiety,4
+I am sad right now,Negative,sad,Anxiety,4
+I'm sad right now,Negative,sad,Anxiety,4
+I am sad about the news,Negative,sad,Anxiety,4
+I'm sad about the news,Negative,sad,Anxiety,4
+Today I am feeling sad,Negative,feeling sad,Anxiety,4
+My heart is heavy with sadness,Negative,sadness,Anxiety,4
+Today I'm extremely sad,Negative,sad,Anxiety,4
+I can't shake this feeling of sadness,Negative,sadness,Anxiety,4
+Sadness overwhelms me today,Negative,sadness,Anxiety,4
+I'm terribly sad right now,Negative,sad,Anxiety,4
+Pure sadness is consuming me,Negative,sadness,Anxiety,4
+I'm feeling sad beyond measure,Negative,feeling sad,Anxiety,4
+My day is clouded with sadness,Negative,sadness,Anxiety,4
+Sad thoughts won't leave my mind,Negative,sad,Anxiety,4
+I'm deeply feeling sad today,Negative,feeling sad,Anxiety,4
+Sadness engulfs me completely,Negative,sadness,Anxiety,4
+I'm intensely sad right now,Negative,sad,Anxiety,4
+Feeling sad to my core,Negative,feeling sad,Anxiety,4
+My heart aches with sadness,Negative,sadness,Anxiety,4
+I'm unbearably sad today,Negative,sad,Anxiety,4
+Just feeling incredibly sad,Negative,feeling sad,Anxiety,4
+Such profound sadness inside,Negative,sadness,Anxiety,4
+I'm completely sad now,Negative,sad,Anxiety,4
+Feeling sad and lost,Negative,feeling sad,Anxiety,4
+Sadness is crushing my spirit,Negative,sadness,Anxiety,4
+I'm persistently sad lately,Negative,sad,Anxiety,4
+Feeling sad and helpless,Negative,feeling sad,Anxiety,4
+My soul is drowning in sadness,Negative,sadness,Anxiety,4
+I'm overwhelmingly sad today,Negative,sad,Anxiety,4
+Feeling sad and defeated,Negative,feeling sad,Anxiety,4
+Deep sadness consumes me now,Negative,sadness,Anxiety,4
+I'm utterly sad right now,Negative,sad,Anxiety,4
+Feeling sad and broken,Negative,feeling sad,Anxiety,4
+Sadness pierces through me,Negative,sadness,Anxiety,4
+I'm profoundly sad today,Negative,sad,Anxiety,4
+Feeling sad and numb,Negative,feeling sad,Anxiety,4
+My life is shrouded in sadness,Negative,sadness,Anxiety,4
+I'm desperately sad today,Negative,sad,Anxiety,4
+Feeling sad and empty,Negative,feeling sad,Anxiety,4
+Sadness fills every part of me,Negative,sadness,Anxiety,4
+I'm hopelessly sad now,Negative,sad,Anxiety,4
+Feeling sad and alone,Negative,feeling sad,Anxiety,4
+My world is dark with sadness,Negative,sadness,Anxiety,4
+I'm deeply sad today,Negative,sad,Anxiety,4
+Feeling sad and vulnerable,Negative,feeling sad,Anxiety,4
+Sadness weighs heavily on me,Negative,sadness,Anxiety,4
+I'm thoroughly sad now,Negative,sad,Anxiety,4
+Feeling sad and drained,Negative,feeling sad,Anxiety,4
+My heart is consumed by sadness,Negative,sadness,Anxiety,4
+I'm inconsolably sad today,Negative,sad,Anxiety,4
+Feeling sad and devastated,Negative,feeling sad,Anxiety,4
+Sadness has taken over me,Negative,sadness,Anxiety,4
+I'm completely broken with sadness,Negative,sad,Anxiety,4
+Overwhelming sadness fills me,Negative,overwhelming sadness,Anxiety,4
+I am feeling lonely,Negative,feeling lonely,Anxiety,3
+My heart feels the loneliness,Negative,loneliness,Anxiety,3
+Today I'm lonely,Negative,lonely,Anxiety,3
+I can't shake this feeling of loneliness,Negative,loneliness,Anxiety,3
+Loneliness surrounds me today,Negative,loneliness,Anxiety,3
+I'm really lonely right now,Negative,lonely,Anxiety,3
+Pure loneliness is what I feel,Negative,loneliness,Anxiety,3
+I'm feeling lonely this evening,Negative,feeling lonely,Anxiety,3
+My day is filled with loneliness,Negative,loneliness,Anxiety,3
+Lonely thoughts occupy my mind,Negative,lonely,Anxiety,3
+I'm truly feeling lonely today,Negative,feeling lonely,Anxiety,3
+Loneliness follows me everywhere,Negative,loneliness,Anxiety,3
+I'm noticeably lonely right now,Negative,lonely,Anxiety,3
+Feeling lonely inside,Negative,feeling lonely,Anxiety,3
+My heart echoes with loneliness,Negative,loneliness,Anxiety,3
+I'm quite lonely today,Negative,lonely,Anxiety,3
+Just feeling rather lonely,Negative,feeling lonely,Anxiety,3
+Such loneliness in my heart,Negative,loneliness,Anxiety,3
+I'm distinctly lonely now,Negative,lonely,Anxiety,3
+Feeling lonely and distant,Negative,feeling lonely,Anxiety,3
+Loneliness is my companion,Negative,loneliness,Anxiety,3
+I'm consistently lonely lately,Negative,lonely,Anxiety,3
+Feeling lonely and isolated,Negative,feeling lonely,Anxiety,3
+My soul feels the loneliness,Negative,loneliness,Anxiety,3
+I'm simply lonely today,Negative,lonely,Anxiety,3
+Feeling lonely and separate,Negative,feeling lonely,Anxiety,3
+This loneliness stays with me,Negative,loneliness,Anxiety,3
+I'm particularly lonely right now,Negative,lonely,Anxiety,3
+Feeling lonely and detached,Negative,feeling lonely,Anxiety,3
+Loneliness lingers around me,Negative,loneliness,Anxiety,3
+I'm definitely lonely today,Negative,lonely,Anxiety,3
+Feeling lonely and withdrawn,Negative,feeling lonely,Anxiety,3
+My life contains this loneliness,Negative,loneliness,Anxiety,3
+I'm naturally lonely today,Negative,lonely,Anxiety,3
+Feeling lonely and disconnected,Negative,feeling lonely,Anxiety,3
+Loneliness fills my quiet moments,Negative,loneliness,Anxiety,3
+I'm undeniably lonely now,Negative,lonely,Anxiety,3
+Feeling lonely and apart,Negative,feeling lonely,Anxiety,3
+My world holds this loneliness,Negative,loneliness,Anxiety,3
+I'm genuinely lonely today,Negative,lonely,Anxiety,3
+Feeling lonely and removed,Negative,feeling lonely,Anxiety,3
+Loneliness persists in my life,Negative,loneliness,Anxiety,3
+I'm thoroughly lonely now,Negative,lonely,Anxiety,3
+Feeling lonely and solitary,Negative,feeling lonely,Anxiety,3
+My days carry this loneliness,Negative,loneliness,Anxiety,3
+I'm sincerely lonely today,Negative,lonely,Anxiety,3
+Feeling lonely and secluded,Negative,feeling lonely,Anxiety,3
+Loneliness surrounds my thoughts,Negative,loneliness,Anxiety,3
+I'm authentically lonely now,Negative,lonely,Anxiety,3
+This loneliness stays with me,Negative,loneliness,Anxiety,3
