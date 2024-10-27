@@ -1,6 +1,7 @@
 import pandas as pd
 import torch
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
+import os
 
 class PolarityFinder:
     def __init__(self, model_name="distilbert-base-uncased-finetuned-sst-2-english"):
@@ -55,6 +56,21 @@ class PolarityFinder:
         self.train_accuracy = self.evaluate_accuracy(x_train, y_train)
         self.val_accuracy = self.evaluate_accuracy(x_val, y_val)
         self.test_accuracy = self.evaluate_accuracy(x_test, y_test)
+
+        # Save the model
+        model_save_path = './polarity_model'
+        os.makedirs(model_save_path, exist_ok=True)  # Create directory if it doesn't exist
+        self.model.save_pretrained(model_save_path)
+        self.tokenizer.save_pretrained(model_save_path)
+
+    def load_model(self, model_path='./polarity_model'):
+        """Loads the model and tokenizer from the specified directory."""
+        if os.path.exists(model_path):
+            self.tokenizer = AutoTokenizer.from_pretrained(model_path)
+            self.model = AutoModelForSequenceClassification.from_pretrained(model_path)
+            self.model.to(self.device)  # Move model to GPU if available
+        else:
+            raise ValueError(f"Model path {model_path} does not exist.")
 
     def get_accuracy(self):
         """Returns a dictionary of accuracies for train, validation, and test sets."""

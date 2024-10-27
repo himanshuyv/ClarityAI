@@ -1,9 +1,12 @@
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 from sklearn.metrics import accuracy_score
+import joblib
+import os
 
 class IntensityScorer:
     def __init__(self):
         self.analyzer = SentimentIntensityAnalyzer()
+        self.data = []
 
     def calculate_intensity(self, compound):
         """Calculates intensity based on the compound score."""
@@ -42,15 +45,16 @@ class IntensityScorer:
             vader_scores = self.analyzer.polarity_scores(sentence)
             intensity = self.calculate_intensity(vader_scores['compound'])
             self.data.append(intensity)
+        self.save_model('../models/Intensity_model')
 
-    def predict(self):
+    def predict(self,text):
         """Predicts the intensities for the test dataset."""
-        predictions = []
-        for sentence in self.x_test:
-            vader_scores = self.analyzer.polarity_scores(sentence)
-            intensity = self.calculate_intensity(vader_scores['compound'])
-            predictions.append(intensity)
-        return predictions
+        # predictions = []
+        # for sentence in self.x_test:
+        vader_scores = self.analyzer.polarity_scores(text)
+        intensity = self.calculate_intensity(vader_scores['compound'])
+            # predictions.append(intensity)
+        return intensity
 
     def evaluate_accuracy(self):
         """Evaluates the model accuracy on the test dataset."""
@@ -58,6 +62,21 @@ class IntensityScorer:
         accuracy = accuracy_score(self.y_test, predictions)
         return accuracy
     
-    def get_predictions(self):
+    def get_predictions(self,text):
         """Returns the list of predictions for the test dataset."""
-        return self.predict()
+        return self.predict(text)
+
+    def save_model(self, model_path='../models/Intensity_scorer_model'):
+        """Save the trained model to the specified path."""
+        joblib.dump(self, model_path)
+        print(f"Model saved to {model_path}")
+
+    def load_model(self, model_path='../models/Intensity_scorer_model'):
+        """Load the model from the specified path."""
+        print(model_path)
+        if os.path.exists(model_path):
+            self.model = joblib.load(model_path)
+            # self.__dict__.update(loaded_model.__dict__)
+            print(f"Model loaded from {model_path}")
+        else:
+            raise ValueError(f"Model path {model_path} does not exist.")

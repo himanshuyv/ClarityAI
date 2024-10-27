@@ -83,7 +83,7 @@ function updateTableAndChart(latestData) {
     row.insertCell(3).textContent = latestData.category;
     row.insertCell(4).textContent = latestData.intensity;
 
-    const polarityIntensity = latestData.polarity * latestData.intensity;
+    const polarityIntensity = latestData.polarity * latestData.var_intensity;
 
     chartLabels.push(`Entry ${entryCount}`);
     chartData.push(polarityIntensity);

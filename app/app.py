@@ -2,6 +2,10 @@ from flask import Flask, render_template, request, jsonify, redirect, session, u
 from flask_sqlalchemy import SQLAlchemy
 from werkzeug.security import generate_password_hash, check_password_hash
 
+import sys
+sys.path.append('..')
+from models.main import model_inference
+
 app = Flask(__name__)
 app.secret_key = 'your_secret_key'
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///chatbot.db'
@@ -63,11 +67,11 @@ def signup():
 @app.route('/chat', methods=['POST'])
 def chat():
     user_input = request.json.get('message')
-    polarity = "Positive"
-    concern = "Concern"
-    category = "Category"
-    intensity = 6
-
+    # polarity = "Positive"
+    # concern = "Concern"
+    # category = "Category"
+    # intensity = 6
+    polarity,concern,category,intensity=model_inference(user_input)
     bot_response = f"Polarity = {polarity}, Concern = {concern}, Category = {category}, Intensity = {intensity}"
     # new_data = Data(polarity=polarity, concern=concern, category=category, intensity=intensity)
     # db.session.add(new_data)

@@ -1,3 +1,4 @@
+import joblib
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.pipeline import make_pipeline
@@ -10,6 +11,7 @@ class CategoryClassifier:
     def fit(self, x_train, y_train):
         """Train the model with training data."""
         self.model.fit(x_train, y_train)
+        self.save_model('../models/categorizer_model')
 
     def predict(self, x):
         """Predict categories for given input data."""
@@ -35,3 +37,13 @@ class CategoryClassifier:
         accuracy, precision = self.evaluate(x_test, y_test)
         print(f"Classifier Accuracy: {accuracy:.2%}")
         print(f"Classifier Precision: {precision:.2%}")
+
+    def save_model(self, model_path='./categorizer_model'):
+        """Save the trained model to the specified path."""
+        joblib.dump(self.model, model_path)
+        print(f"Model saved to {model_path}")
+
+    def load_model(self, model_path='./categorizer_model'):
+        """Load the model from the specified path."""
+        self.model = joblib.load(model_path)
+        print(f"Model loaded from {model_path}")

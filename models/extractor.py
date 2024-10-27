@@ -6,7 +6,7 @@ from tqdm import tqdm
 from sklearn.metrics import accuracy_score
 
 class KeywordExtractor:
-    def __init__(self, model_output_path="mental_health_ner_model"):
+    def __init__(self, model_output_path="../models/mental_health_ner_model"):
         self.device = "mps" if torch.backends.mps.is_available() else "cpu"
         self.model_output_path = model_output_path
         self.nlp = spacy.blank("en") 
