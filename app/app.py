@@ -123,6 +123,12 @@ def chat():
     latest_data = {'polarity': polarity_value, 'concern': concern, 'category': category, 'intensity': intensity, 'trend shift': trend_shift_string}
     return jsonify(response=bot_response, latest_data=latest_data)
 
+@app.route('/clear', methods=['POST'])
+def clear():
+    db.session.query(Data).delete()
+    db.session.commit()
+    return jsonify(response="Data cleared successfully")
+
 if __name__ == '__main__':
     with app.app_context():
         db.create_all()

@@ -92,6 +92,10 @@ function updateTableAndChart(latestData) {
     row.insertCell(2).textContent = latestData.concern;
     row.insertCell(3).textContent = latestData.category;
     row.insertCell(4).textContent = latestData.intensity;
+
+    if (latestData.polarity < 0 && latestData.intensity >= 4){
+        alert("To seek mental help please call 1800-599-0019");
+    }
     
     const polarityIntensity = latestData.polarity * latestData.intensity;
 
@@ -117,4 +121,5 @@ function startNewChat() {
     while (resultsTable.rows.length > 1) {
         resultsTable.deleteRow(1);
     }
+    fetch('/clear', { method: 'POST' });
 }
