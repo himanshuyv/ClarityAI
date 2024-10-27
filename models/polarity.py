@@ -58,7 +58,7 @@ class PolarityFinder:
         self.test_accuracy = self.evaluate_accuracy(x_test, y_test)
 
         # Save the model
-        model_save_path = './polarity_model'
+        model_save_path = '../models/polarity_model'
         os.makedirs(model_save_path, exist_ok=True)  # Create directory if it doesn't exist
         self.model.save_pretrained(model_save_path)
         self.tokenizer.save_pretrained(model_save_path)
