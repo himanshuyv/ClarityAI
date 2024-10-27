@@ -29,25 +29,31 @@ def model_inference(fetched_input):
 
     # x_train_extractor, x_temp_extractor, y_train_extractor, y_temp_extractor = train_test_split(x_user, y_concern, test_size=0.3, random_state=42)  # 70% train, 30% temp
     # x_val_extractor, x_test_extractor, y_val_extractor, y_test_extractor = train_test_split(x_temp_extractor, y_temp_extractor, test_size=0.5, random_state=42)  # Split 30% into 15% val and 15% test
-    ner_model = KeywordExtractor()
+    # ner_model = KeywordExtractor()
     # ner_model.fit(x_train_extractor, y_train_extractor, x_val_extractor, y_val_extractor, n_iter=10)
+    ner_model = KeywordExtractor()
     ner_model.load_model()
     print('extracted phrase:',ner_model.predict(fetched_sentence))
-    extracted_phrase = ner_model.predict(fetched_sentence)[0][0]
+    
+    extracted_phrase = ner_model.predict(fetched_sentence)
+    if len(extracted_phrase)>0:
+        extracted_phrase=extracted_phrase[0][0]
+    else:
+        return [polarity_prediction,'abort','abort','abort']
     # test_accuracy = ner_model.evaluate_accuracy(x_test_extractor, y_test_extractor)
     # print(f"Extractor Test Accuracy: {test_accuracy:.2%}")
 
-    # x_train_categorizer, x_temp_categorizer, y_train_categorizer, y_temp_categorizer = train_test_split(
-    #     x_concern, y_category, test_size=0.3, random_state=42)  # 70% train, 30% temp
-    # x_val_categorizer, x_test_categorizer, y_val_categorizer, y_test_categorizer = train_test_split(
-    #     x_temp_categorizer, y_temp_categorizer, test_size=0.5, random_state=42)  # Split 30% into 15% val and 15% test
-    # classifier = CategoryClassifier()
-    # classifier.fit(x_train_categorizer, y_train_categorizer)
-    classifier= CategoryClassifier()
+    x_train_categorizer, x_temp_categorizer, y_train_categorizer, y_temp_categorizer = train_test_split(
+        x_concern, y_category, test_size=0.3, random_state=42)  # 70% train, 30% temp
+    x_val_categorizer, x_test_categorizer, y_val_categorizer, y_test_categorizer = train_test_split(
+        x_temp_categorizer, y_temp_categorizer, test_size=0.5, random_state=42)  # Split 30% into 15% val and 15% test
+    classifier = CategoryClassifier()
+    classifier.fit(x_train_categorizer, y_train_categorizer)
+    # classifier= CategoryClassifier()
     classifier.load_model('../models/categorizer_model')
     print('Category:',classifier.predict_single(extracted_phrase))
     category_prediction = classifier.predict_single(extracted_phrase)
-    # classifier.report_performance(x_test_categorizer, y_test_categorizer)
+    classifier.report_performance(x_test_categorizer, y_test_categorizer)
 
     # x_train_intensity, x_temp_intensity, y_train_intensity, y_temp_intensity = train_test_split(x_concern, y_intensity, test_size=0.3, random_state=42)  # 70% train, 30% temp
     # x_val_intensity, x_test_intensity, y_val_intensity, y_test_intensity = train_test_split(x_temp_intensity, y_temp_intensity, test_size=0.5, random_state=42)  # Split 30% into 15% val and 15% test

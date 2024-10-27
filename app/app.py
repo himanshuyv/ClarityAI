@@ -102,10 +102,19 @@ def chat():
 
     except:
         pass
+    if concern=='abort':
+        trend_shift_string=""
     if trend_shift_string == "":
         trend_shift_string = "No significant trend shift detected."
-    
+    if polarity=='Negative':
+        if category=='Positive Outlook':
+            category='Anxiety'
     bot_response = f"Polarity : {polarity}, Concern : {concern}, Category : {category}, Intensity : {intensity}, Timeline Shift : {trend_shift_string}"
+    if concern=='abort':
+        bot_response=f"Polarity: {polarity}"
+        polarity_value = 1 if polarity == "Positive" else -1 if polarity == "Negative" else 0
+        latest_data={'Polarity':polarity_value}
+        return jsonify(response=bot_response,latest_data=latest_data)
     new_data = Data(polarity=polarity, concern=concern, category=category, intensity=intensity)
     db.session.add(new_data)
     db.session.commit()

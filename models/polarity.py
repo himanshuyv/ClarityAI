@@ -31,9 +31,9 @@ class PolarityFinder:
         scores = outputs.logits.softmax(dim=1).tolist()[0]  # Convert to probabilities
 
         # Simple rule-based approach for three classes
-        if scores[1] > 0.6:  # High confidence positive
+        if scores[1] > 0.5:  # High confidence positive
             return "Positive"
-        elif scores[0] > 0.6:  # High confidence negative
+        elif scores[0] > 0.5:  # High confidence negative
             return "Negative"
         else:
             return "Neutral"
