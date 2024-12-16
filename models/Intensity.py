@@ -45,7 +45,7 @@ class IntensityScorer:
             vader_scores = self.analyzer.polarity_scores(sentence)
             intensity = self.calculate_intensity(vader_scores['compound'])
             self.data.append(intensity)
-        self.save_model('../models/Intensity_model')
+        self.save_model('./models/Intensity_model')
 
     def predict(self,text):
         """Predicts the intensities for the test dataset."""
@@ -66,12 +66,12 @@ class IntensityScorer:
         """Returns the list of predictions for the test dataset."""
         return self.predict(text)
 
-    def save_model(self, model_path='../models/Intensity_scorer_model'):
+    def save_model(self, model_path='./models/Intensity_scorer_model'):
         """Save the trained model to the specified path."""
         joblib.dump(self, model_path)
         print(f"Model saved to {model_path}")
 
-    def load_model(self, model_path='../models/Intensity_scorer_model'):
+    def load_model(self, model_path='./models/Intensity_scorer_model'):
         """Load the model from the specified path."""
         print(model_path)
         if os.path.exists(model_path):

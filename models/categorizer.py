@@ -11,7 +11,7 @@ class CategoryClassifier:
     def fit(self, x_train, y_train):
         """Train the model with training data."""
         self.model.fit(x_train, y_train)
-        self.save_model('../models/categorizer_model')
+        self.save_model('./models/categorizer_model')
 
     def predict(self, x):
         """Predict categories for given input data."""

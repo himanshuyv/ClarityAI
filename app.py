@@ -2,8 +2,6 @@ from flask import Flask, render_template, request, jsonify, redirect, session, u
 from flask_sqlalchemy import SQLAlchemy
 from werkzeug.security import generate_password_hash, check_password_hash
 
-import sys
-sys.path.append('..')
 from models.main import model_inference
 
 app = Flask(__name__)

@@ -8,8 +8,8 @@ from models.Intensity import IntensityScorer
 from models.categorizer import CategoryClassifier
 
 def model_inference(fetched_input):
-    data = pd.read_csv('../data/new_synth2.csv').sample(frac=1, random_state=42)
-    data.to_csv('../data/new_synth2.csv', index=False)
+    data = pd.read_csv('./data/new_synth2.csv').sample(frac=1, random_state=42)
+    data.to_csv('./data/new_synth2.csv', index=False)
     x_user = data['User Input']
     x_concern = data['Extracted Concern']
     y_polarity = data['Polarity']
@@ -24,10 +24,11 @@ def model_inference(fetched_input):
     # polarity_model.fit(x_train_polarity, y_train_polarity, x_val_polarity, y_val_polarity, x_test_polarity, y_test_polarity)
     # polarity_accuracy = polarity_model.get_accuracy()
     # print("Polarity Accuracy Results:", polarity_accuracy)
-    polarity_model = PolarityFinder()
-    polarity_model.load_model('../models/polarity_model')
-    print('polarity:',polarity_model.get_predictions([fetched_sentence]))
-    polarity_prediction = polarity_model.get_predictions([fetched_sentence])
+    # polarity_model = PolarityFinder()
+    # polarity_model.load_model('./models/polarity_model')
+    # print('polarity:',polarity_model.get_predictions([fetched_sentence]))
+    # polarity_prediction = polarity_model.get_predictions([fetched_sentence])
+    polarity_prediction = "Positive"
 
     # x_train_extractor, x_temp_extractor, y_train_extractor, y_temp_extractor = train_test_split(x_user, y_concern, test_size=0.3, random_state=42)  # 70% train, 30% temp
     # x_val_extractor, x_test_extractor, y_val_extractor, y_test_extractor = train_test_split(x_temp_extractor, y_temp_extractor, test_size=0.5, random_state=42)  # Split 30% into 15% val and 15% test
@@ -52,7 +53,7 @@ def model_inference(fetched_input):
     # classifier = CategoryClassifier()
     # classifier.fit(x_train_categorizer, y_train_categorizer)
     classifier= CategoryClassifier()
-    classifier.load_model('../models/categorizer_model')
+    classifier.load_model('./models/categorizer_model')
     print('Category:',classifier.predict_single(extracted_phrase))
     category_prediction = classifier.predict_single(extracted_phrase)
     # classifier.report_performance(x_test_categorizer, y_test_categorizer)
@@ -62,7 +63,7 @@ def model_inference(fetched_input):
     # vader_analyzer = IntensityScorer()
     # vader_analyzer.fit(x_train_intensity, y_train_intensity, x_val_intensity, y_val_intensity, x_test_intensity, y_test_intensity)
     vader_analyzer = IntensityScorer()
-    vader_analyzer.load_model('../models/Intensity_model')
+    vader_analyzer.load_model('./models/Intensity_model')
     print('intensity:',vader_analyzer.get_predictions(extracted_phrase))
     intensity_prediction = vader_analyzer.get_predictions(extracted_phrase)
     # intensity_accuracy = vader_analyzer.evaluate_accuracy()
