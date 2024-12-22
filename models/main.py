@@ -24,11 +24,11 @@ def model_inference(fetched_input):
     # polarity_model.fit(x_train_polarity, y_train_polarity, x_val_polarity, y_val_polarity, x_test_polarity, y_test_polarity)
     # polarity_accuracy = polarity_model.get_accuracy()
     # print("Polarity Accuracy Results:", polarity_accuracy)
-    # polarity_model = PolarityFinder()
-    # polarity_model.load_model('./models/polarity_model')
-    # print('polarity:',polarity_model.get_predictions([fetched_sentence]))
-    # polarity_prediction = polarity_model.get_predictions([fetched_sentence])
-    polarity_prediction = "Positive"
+    polarity_model = PolarityFinder()
+    polarity_model.load_model('./models/polarity_model')
+    print('polarity:',polarity_model.get_predictions([fetched_sentence]))
+    polarity_prediction = polarity_model.get_predictions([fetched_sentence])
+    # polarity_prediction = "Positive"
 
     # x_train_extractor, x_temp_extractor, y_train_extractor, y_temp_extractor = train_test_split(x_user, y_concern, test_size=0.3, random_state=42)  # 70% train, 30% temp
     # x_val_extractor, x_test_extractor, y_val_extractor, y_test_extractor = train_test_split(x_temp_extractor, y_temp_extractor, test_size=0.5, random_state=42)  # Split 30% into 15% val and 15% test
