@@ -1,8 +1,9 @@
 from flask import Flask, render_template, request, jsonify, redirect, session, url_for
 from flask_sqlalchemy import SQLAlchemy
 from werkzeug.security import generate_password_hash, check_password_hash
-
+import requests
 from models.main import model_inference
+import os
 
 app = Flask(__name__)
 app.secret_key = 'your_secret_key'
@@ -10,6 +11,33 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///chatbot.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db = SQLAlchemy(app)
+
+def download_model():
+    # Define the model's local path and the URL to download from
+    model_path = "./models/polarity_model/model.safetensors"
+    model_url = "https://github.com/himanshuyv/ClarityAI/raw/refs/heads/main/models/polarity_model/model.safetensors?download="
+
+    # Check if the model already exists
+    if not os.path.exists(model_path):
+        print("Model not found. Downloading...")
+        
+        # Create the directory if it doesn't exist
+        os.makedirs(os.path.dirname(model_path), exist_ok=True)
+        
+        # Download the model
+        response = requests.get(model_url, stream=True)
+        if response.status_code == 200:
+            with open(model_path, "wb") as f:
+                for chunk in response.iter_content(chunk_size=8192):
+                    f.write(chunk)
+            print("Model downloaded successfully.")
+        else:
+            print(f"Failed to download the model. HTTP Status Code: {response.status_code}")
+            raise Exception("Model download failed.")
+    else:
+        print("Model already exists. Skipping download.")
+
+download_model()
 
 class User(db.Model):
     id = db.Column(db.Integer, primary_key=True)
