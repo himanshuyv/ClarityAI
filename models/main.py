@@ -8,15 +8,15 @@ from models.Intensity import IntensityScorer
 from models.categorizer import CategoryClassifier
 
 def model_inference(fetched_input):
-    data = pd.read_csv('./data/new_synth2.csv').sample(frac=1, random_state=42)
-    data.to_csv('./data/new_synth2.csv', index=False)
-    x_user = data['User Input']
-    x_concern = data['Extracted Concern']
-    y_polarity = data['Polarity']
-    y_concern = data['Extracted Concern']
-    y_category = data['Category']
-    y_intensity = data['Intensity']
-    fetched_sentence= 'The cat running around means I have trouble sleeping sometimes.'
+    # data = pd.read_csv('./data/new_synth2.csv').sample(frac=1, random_state=42)
+    # data.to_csv('./data/new_synth2.csv', index=False)
+    # x_user = data['User Input']
+    # x_concern = data['Extracted Concern']
+    # y_polarity = data['Polarity']
+    # y_concern = data['Extracted Concern']
+    # y_category = data['Category']
+    # y_intensity = data['Intensity']
+    # fetched_sentence= 'The cat running around means I have trouble sleeping sometimes.'
     fetched_sentence= fetched_input
     # x_train_polarity, x_temp_polarity, y_train_polarity, y_temp_polarity = train_test_split(x_user, y_polarity, test_size=0.3, random_state=42)  # 70% train, 30% temp
     # x_val_polarity, x_test_polarity, y_val_polarity, y_test_polarity = train_test_split(x_temp_polarity, y_temp_polarity, test_size=0.5, random_state=42)  # Split 30% into 15% val and 15% test
