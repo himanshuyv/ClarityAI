@@ -67,11 +67,11 @@ def chat():
     
     user_input = request.json.get('message')
     model_path = "./models/polarity_model/model.safetensors"
-    if (os.path.exists(model_path)):
-        polarity,concern,category,intensity = model_inference(user_input)
-    else:
-        polarity,concern,category,intensity = "Not found","Not found", "Not found", 1
-
+    # if (os.path.exists(model_path)):
+    #     polarity,concern,category,intensity = model_inference(user_input)
+    # else:
+    #     polarity,concern,category,intensity = "Not found","Not found", "Not found", 1
+    polarity,concern,category,intensity = model_inference(user_input)
     polarity = polarity[0]
     trend_shift_string = ""
     try:

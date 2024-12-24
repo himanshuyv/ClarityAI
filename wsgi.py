@@ -4,8 +4,7 @@ import requests
 
 def download_model():
     model_path = "./models/polarity_model/model.safetensors"
-    model_url = "https://github.com/himanshuyv/ClarityAI/raw/refs/heads/main/models/polarity_model/model.safetensors?download="
-    print("Model not found. Downloading...")
+    model_url = ""
 
     response = requests.get(model_url, stream=True)
     if response.status_code == 200:
@@ -18,6 +17,6 @@ def download_model():
         raise Exception("Model download failed.")
 
 if __name__ == "__main__":
-    download_model()
+    # download_model()
     port = int(os.environ.get("PORT", 4000))
     app.run(host="0.0.0.0", port=port)

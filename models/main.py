@@ -6,6 +6,7 @@ from models.polarity import PolarityFinder
 from models.extractor import KeywordExtractor
 from models.Intensity import IntensityScorer
 from models.categorizer import CategoryClassifier
+import os
 
 def model_inference(fetched_input):
     # data = pd.read_csv('./data/new_synth2.csv').sample(frac=1, random_state=42)
@@ -25,9 +26,13 @@ def model_inference(fetched_input):
     # polarity_accuracy = polarity_model.get_accuracy()
     # print("Polarity Accuracy Results:", polarity_accuracy)
     polarity_model = PolarityFinder()
-    polarity_model.load_model('./models/polarity_model')
-    print('polarity:',polarity_model.get_predictions([fetched_sentence]))
-    polarity_prediction = polarity_model.get_predictions([fetched_sentence])
+    model_path = "./polarity_model/model.safetensors"
+    if (os.path.exists(model_path)):
+        polarity_model.load_model('./models/polarity_model')
+        print('polarity:',polarity_model.get_predictions([fetched_sentence]))
+        polarity_prediction = polarity_model.get_predictions([fetched_sentence])
+    else:
+        polarity_prediction = ['Positive']
     # polarity_prediction = "Positive"
 
     # x_train_extractor, x_temp_extractor, y_train_extractor, y_temp_extractor = train_test_split(x_user, y_concern, test_size=0.3, random_state=42)  # 70% train, 30% temp
