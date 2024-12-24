@@ -26,7 +26,7 @@ def model_inference(fetched_input):
     # polarity_accuracy = polarity_model.get_accuracy()
     # print("Polarity Accuracy Results:", polarity_accuracy)
     polarity_model = PolarityFinder()
-    model_path = "./polarity_model/model.safetensors"
+    model_path = "./models/polarity_model/model.safetensors"
     if (os.path.exists(model_path)):
         polarity_model.load_model('./models/polarity_model')
         print('polarity:',polarity_model.get_predictions([fetched_sentence]))
